@@ -5,7 +5,7 @@ locale: en_US
 description: #Describe your website here.
 logo: Gaines.jpg
 search: false
-url: brgaines.github.io
+url: #brgaines.github.io
 
 
 # Jekyll configuration
