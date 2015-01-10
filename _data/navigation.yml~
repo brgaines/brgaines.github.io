@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: Home
+  url: 
+
+- title: About
+  url: /about/
+
+- title: CV
+  url: /cv/GainesCV20150108web.pdf
+
+- title: Research
+  url: /research/
+
+- title: Talks
+  url: /talks/
+
+- title: Teaching
+  url: /teaching/
+
+- title: Consulting
+  url: /consulting/
