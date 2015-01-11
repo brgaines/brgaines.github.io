@@ -1,0 +1,4 @@
+# gitignore for the personal webpage repo of Brian R. Gaines (brgaines.github.io)
+
+# ignore _site files to avoid redundancy since Github also compiles
+_site/*
