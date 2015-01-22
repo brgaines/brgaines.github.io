@@ -2,3 +2,4 @@
 
 # ignore _site files to avoid redundancy since Github also compiles
 _site/*
+*.*~
