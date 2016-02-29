@@ -1,0 +1,353 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>ST790 Advanced Computing Lab: Introduction to CVX</title><meta name="generator" content="MATLAB 8.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-02-29"><meta name="DC.source" content="cvxDemoTest.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1>ST790 Advanced Computing Lab: Introduction to CVX</h1><!--introduction--><p>This is a work in progress</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Initial Stuff</a></li><li><a href="#2">Linear Programming Example: <img src="cvxDemoTest_eq93608.png" alt="$\ell_1$"> regression (least absolute deviations)</a></li><li><a href="#3">LP Example: Linprog</a></li><li><a href="#8">LP Example: Gurobi</a></li><li><a href="#9">LP Example: CVX</a></li></ul></div><h2>Initial Stuff<a name="1"></a></h2><p>clean up workspace</p><pre class="codeinput">clear;
+
+<span class="comment">% change current directory (this needs to be done for file to work!!!!!!!!!!!!!)</span>
+cd <span class="string">'/home/brg/Documents/GitHub/github.ncsu.edu/st790-2015spr/hw4/'</span>
+
+<span class="comment">% load data</span>
+load(<span class="string">'prostate'</span>)
+
+<span class="comment">% define response</span>
+y = lpsa;
+<span class="comment">% extract number of observations</span>
+n = size(y, 1);
+<span class="comment">% combine predictors into data matrix, including intercept</span>
+X = [ones(n, 1) lcavol lweight age lbph svi lcp gleason pgg45];
+<span class="comment">% extract number of columns</span>
+p = size(X, 2);
+</pre><h2>Linear Programming Example: <img src="cvxDemoTest_eq93608.png" alt="$\ell_1$"> regression (least absolute deviations)<a name="2"></a></h2><p>The first example is <img src="cvxDemoTest_eq93608.png" alt="$\ell_1$"> regression.  As the name suggests, this is similar to the typical regression setup except that the <img src="cvxDemoTest_eq93608.png" alt="$\ell_1$"> norm is used for the loss function, so the objective function becomes</p><p>minimize <img src="cvxDemoTest_eq70660.png" alt="$$ || y - X\beta ||_1 $$"></p><p>To solve this using a linear programming solver, we need to put it in the solver's standard form (which may differ slightly from the standard form Dr. Chi presented in class).</p><h2>LP Example: Linprog<a name="3"></a></h2><p>For MATLAB's <tt>lingprog</tt> function, we see that (from the <a href="http://www.mathworks.com/help/optim/ug/linprog.html">online documentation</a>  or by the command "help linprog" in MATLAB) the problem's form is given by</p><p>minimize <img src="cvxDemoTest_eq49336.png" alt="$f'x$"></p><p>subject to <img src="cvxDemoTest_eq53523.png" alt="$Ax \le b$">, <img src="cvxDemoTest_eq98006.png" alt="$Aeq \cdot x = beq$">, and <img src="cvxDemoTest_eq25982.png" alt="$lb \le x \le ub$">.</p><p>Once we massage the problem into this form (I will do this on the board), then the corresponding function call is:</p><p>x = linprog(f, A, b, Aeq, beq, lb, ub, x0, options);</p><p>Not all of the inputs are required.  For example, if we only have linear inequaltiy constraints, the function call becomes</p><p>x = linprog(f, A, b);</p><p>If some of the intermediate function inputs are not needed, they need to be replaced by two square brackets, [].  So if we had linear equality constraints but no linear inequality constraints, the code is</p><p>x = linprog(f, [], [], Aeq, beq);</p><p>Anyway, after massaging the <img src="cvxDemoTest_eq93608.png" alt="$\ell_1$"> regression problem into this form, we can translate it to the code:</p><p><img src="cvxDemoTest_eq08973.png" alt="$x = \theta = \pmatrix{\beta \cr r}$"></p><p><img src="cvxDemoTest_eq95961.png" alt="$$f = \pmatrix{0_p \cr 1_n}$$"></p><pre class="codeinput">f = [zeros(p, 1); ones(n, 1)];
+</pre><p><img src="cvxDemoTest_eq24688.png" alt="$A = \pmatrix{X &amp; -I_n \cr -X &amp; -I_n}$"></p><pre class="codeinput">A = [X -speye(n); -X -speye(n)];
+</pre><p><img src="cvxDemoTest_eq65791.png" alt="$$b = \pmatrix{y \cr -y}$$"></p><pre class="codeinput">b = [y; -y];
+</pre><p><img src="cvxDemoTest_eq84960.png" alt="$\beta \in \mathcal{R}^p$">, and <img src="cvxDemoTest_eq63239.png" alt="$r \ge 0_n$"></p><pre class="codeinput">lb = [-inf(p, 1); zeros(n, 1)];
+</pre><p>Now that all of the inputs are set, we can call <tt>lingprog</tt> to estimate the parameters, then extract the first <img src="cvxDemoTest_eq01166.png" alt="$p$"> parameters as those correspond to <img src="cvxDemoTest_eq55687.png" alt="$\hat{\beta}$">.</p><pre class="codeinput">tic;                                            <span class="comment">% start timer</span>
+thetaHatLP = linprog(f, A, b, [], [], []);      <span class="comment">% estimate parameters</span>
+toc;                                            <span class="comment">% run time</span>
+betaHatLP = thetaHatLP(1:p);                    <span class="comment">% extract estimates for beta</span>
+</pre><pre class="codeoutput">Optimization terminated.
+Elapsed time is 0.105838 seconds.
+</pre><h2>LP Example: Gurobi<a name="8"></a></h2><p>Please note that this requires a standalone installation of <a href="http://www.gurobi.com/academia/for-universities">Gurobi</a>, which is free for academic users but was not required for this lab.  However, I do encourage the knowleddge of a commercial solver such as Gurobi or <a href="https://www.mosek.com/resources/academic-license">MOSEK</a> (both of which are free for academic users, follow the links) as those are state-of-the-art solvers and more efficient than MATLAB's built-in solvers and the R equivalents that I'm aware of (both Gurobi and MOSEK are available in R).</p><p>As before, the first thing we need to do is become familiar with what the standard form looks like according to the solver.  A quick view of this is available through Gurobi's <a href="https://www.gurobi.com/documentation/6.5/refman/matlab_solving_models_with.html">online documentation</a>, while the details are available in the actual <a href="http://www.gurobi.com/documentation/6.5/refman.pdf">reference manual</a> (p. 433).  The relevant parts for our purposes are</p><p>minimize  <img src="cvxDemoTest_eq56252.png" alt="$x'Qx + c'x + alpha$"></p><p>subject to <img src="cvxDemoTest_eq95733.png" alt="$Ax = b$"> and <img src="cvxDemoTest_eq70821.png" alt="$l \le x \le u$">.</p><p>and the function call is</p><p><tt>gurobi(model, params)</tt></p><p>For Gurobi, the <tt>model</tt> argument is pieced together in a <tt>struct</tt> variable (which is essentially like a <tt>list</tt> in R) that contains different fields that correspond to the various parts of the optimization poblem.  The field of a struct is referenced with a period, so the syntax is <tt>struct.field</tt>.</p><p>Here are a few notes on constructing the model, as the implementation is not as straightforward as <tt>linprog</tt>:</p><div><ul><li><img src="cvxDemoTest_eq27869.png" alt="$c$"> is required (so a vector of zeros is used if it is not needed), and <tt>obj</tt> is its corresponding field (<tt>model.obj</tt>)</li><li><img src="cvxDemoTest_eq31461.png" alt="$A$"> is also required, and it must be a sparse matrix (using the <tt>sparse</tt> function).  Even if you do not have any constraints in your model, <img src="cvxDemoTest_eq31461.png" alt="$A$"> is still required and has to be sparse (so simply using [] doesn't work).  As we will see in the lasso example, I usually use <tt>sparse(zeros(0, p));</tt>, where <img src="cvxDemoTest_eq01166.png" alt="$p$"> is the dimension of the parameter vector/optimization variable, to create a sparse empty matrix.</li><li>Linear inequality constraints are also possible, even though the standard form only has linear equality constraints.  The <tt>sense</tt> field specifies the type of constraint, using either <tt>'='</tt>, <tt>'&lt;'</tt>, or <tt>'&gt;'</tt>.  A single value can be used when all of the constraints are the same, otherwise for mixed constraints there needs to be one value per row of <img src="cvxDemoTest_eq31461.png" alt="$A$">.  Since <tt>A</tt> is required, <tt>sense</tt> is also required.</li><li>The field for <img src="cvxDemoTest_eq28812.png" alt="$b$"> is <tt>rhs</tt>.  This is also required.</li><li>The field for <img src="cvxDemoTest_eq45221.png" alt="$l$"> is <tt>lb</tt>.  This is optional, but please note that the default lower bound is zero, and not <img src="cvxDemoTest_eq52342.png" alt="$-\infty$">, which can be accomplished by using <tt>-inf(p, 1)</tt>.</li><li><tt>params</tt> is optional and can be used to specify options.  A list of options is available on page 487 of the <a href="http://www.gurobi.com/documentation/6.5/refman.pdf">reference manual</a>.  I typically only set the field <tt>OutputFlag</tt> to <img src="cvxDemoTest_eq12896.png" alt="$0$"> to suppress the output.</li><li><tt>x</tt> is the field in the output struct that has the solution.  The solution includes several other output fields, detailed on p. 436 of the referencec manual.</li></ul></div><p>Now that we have some background on <tt>gurobi</tt>, we can see it in action:</p><pre class="codeinput"><span class="comment">%# Model Setup #%</span>
+<span class="comment">% linear coefficients</span>
+gmodel.obj = [zeros(p, 1); ones(n, 1)];
+<span class="comment">% constraint matrix</span>
+gmodel.A = [X -speye(n); -X -speye(n)];
+<span class="comment">% constraint type. Only one value needed since all constraints are inequality</span>
+gmodel.sense = <span class="string">'&lt;'</span>;
+<span class="comment">% b vector for constraints</span>
+gmodel.rhs = [y; -y];
+<span class="comment">% lower bound (needed because default is zero)</span>
+gmodel.lb = [-inf(p, 1); zeros(n, 1)];
+<span class="comment">% suppress output</span>
+gparam.OutputFlag = 0;
+
+<span class="comment">%# Model Estiation #%</span>
+tic;                                    <span class="comment">% start timer</span>
+gresult = gurobi(gmodel, gparam);       <span class="comment">% estimate model</span>
+toc;                                    <span class="comment">% run time</span>
+betaHatGurobiLP = gresult.x(1:p);       <span class="comment">% extract estimates for beta</span>
+</pre><pre class="codeoutput">Elapsed time is 0.003544 seconds.
+</pre><h2>LP Example: CVX<a name="9"></a></h2><p>While Gurobi and MOSEK are solvers, <a href="http://cvxr.com/cvx/">CVX</a> is a modeling tool which provides a much more user-friendly interface for solving optimization problems using a variety of solvers, saving the hassle of needing to massage the problem into standard form or the hassle of having to learn each solver's syntax.</p><p>I will get into the details of CVX later, but for now, let's look at how we would solve the <img src="cvxDemoTest_eq93608.png" alt="$\ell_1$"> regression problem using CVX.</p><pre class="codeinput"><span class="comment">%# Model Estiation #%</span>
+tic;                                          <span class="comment">% start timer</span>
+cvx_begin <span class="string">quiet</span>                               <span class="comment">% initiate CVX, hiding output</span>
+    variable <span class="string">betaHatCVX_LP(p)</span>;                <span class="comment">% declare optimization variable</span>
+    minimize(norm(y - X*betaHatCVX_LP, 1));   <span class="comment">% define objective function</span>
+cvx_end                                       <span class="comment">% declare end of CVX statements</span>
+toc;                                          <span class="comment">% run time</span>
+</pre><p>As you can see, the syntax is much more straightforward and succinct, and essentially translates the original form of the problem directly to code without first having to massage it into an intermediate form for the sake of estimation.  Here</p><pre class="codeinput"><span class="comment">%# Compare estimates #%</span>
+<span class="comment">% reduce the number of decimals displayed</span>
+format <span class="string">short</span>
+<span class="comment">% display estimates</span>
+display([betaHatLP betaHatCVX_LP betaHatGurobiLP])
+</pre><pre class="codeoutput">Elapsed time is 0.057000 seconds.
+
+ans =
+
+   -0.5722   -0.5722   -0.5722
+    0.5249    0.5249    0.5249
+    0.6711    0.6711    0.6711
+   -0.0283   -0.0283   -0.0283
+    0.1598    0.1598    0.1598
+    0.8119    0.8119    0.8119
+   -0.1091   -0.1091   -0.1091
+    0.2011    0.2011    0.2011
+    0.0029    0.0029    0.0029
+
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% ST790 Advanced Computing Lab: Introduction to CVX
+% This is a work in progress
+
+%% Initial Stuff
+% clean up workspace
+clear; 
+
+% change current directory (this needs to be done for file to work!!!!!!!!!!!!!)
+cd '/home/brg/Documents/GitHub/github.ncsu.edu/st790-2015spr/hw4/'
+
+% load data
+load('prostate')
+
+% define response 
+y = lpsa;
+% extract number of observations
+n = size(y, 1);
+% combine predictors into data matrix, including intercept
+X = [ones(n, 1) lcavol lweight age lbph svi lcp gleason pgg45];
+% extract number of columns
+p = size(X, 2);
+
+
+
+
+%% Linear Programming Example: $\ell_1$ regression (least absolute deviations)
+% The first example is $\ell_1$ regression.  As the name suggests, this is
+% similar to the typical regression setup except that the $\ell_1$ norm is used 
+% for the loss function, so the objective function becomes
+%
+% minimize $$ || y - X\beta ||_1 $$
+%
+% To solve this using a linear programming solver, we need to put it in
+% the solver's standard form (which may differ slightly from the standard form
+% Dr. Chi presented in class).  
+%
+%%% LP Example: Linprog
+% For MATLAB's |lingprog| function, we see that 
+% (from the 
+% <http://www.mathworks.com/help/optim/ug/linprog.html online documentation>  or 
+% by the command "help linprog" in MATLAB) the problem's form is given by
+%
+% minimize $f'x$ 
+%
+% subject to $Ax \le b$, $Aeq \cdot x = beq$, and $lb \le x \le ub$.  
+% 
+% Once we massage the problem into this form (I will do this on the board), then
+% the corresponding function call is:
+%
+% x = linprog(f, A, b, Aeq, beq, lb, ub, x0, options);
+% 
+% Not all of the inputs are required.  For example, if we only have linear 
+% inequaltiy constraints, the function call becomes
+%
+% x = linprog(f, A, b);
+% 
+% If some of the intermediate function inputs are not needed, they need to
+% be replaced by two square brackets, [].  So if we had linear equality
+% constraints but no linear inequality constraints, the code is 
+% 
+% x = linprog(f, [], [], Aeq, beq);
+% 
+% Anyway, after massaging the $\ell_1$ regression problem into this form,
+% we can translate it to the code:
+%
+% $x = \theta = \pmatrix{\beta \cr r}$
+%
+% $$f = \pmatrix{0_p \cr 1_n}$$
+f = [zeros(p, 1); ones(n, 1)];              
+%%% 
+% $A = \pmatrix{X & -I_n \cr -X & -I_n}$
+%
+A = [X -speye(n); -X -speye(n)];                 
+%%% 
+% $$b = \pmatrix{y \cr -y}$$
+b = [y; -y];                                    
+%%%
+% $\beta \in \mathcal{R}^p$, and $r \ge 0_n$
+lb = [-inf(p, 1); zeros(n, 1)];
+%%%
+% Now that all of the inputs are set, we can call |lingprog| to estimate
+% the parameters, then extract the first $p$ parameters as those correspond
+% to $\hat{\beta}$.
+tic;                                            % start timer
+thetaHatLP = linprog(f, A, b, [], [], []);      % estimate parameters
+toc;                                            % run time
+betaHatLP = thetaHatLP(1:p);                    % extract estimates for beta
+
+
+%% LP Example: Gurobi
+% Please note that this requires a standalone installation of 
+% <http://www.gurobi.com/academia/for-universities Gurobi>, which
+% is free for academic users but was not required for this lab.  However, I
+% do encourage the knowleddge of a commercial solver such as Gurobi or 
+% <https://www.mosek.com/resources/academic-license MOSEK>
+% (both of which are free for academic users, follow the links) as those are 
+% state-of-the-art solvers and more efficient than MATLAB's built-in solvers 
+% and the R equivalents that I'm aware of (both Gurobi and MOSEK are available 
+% in R).
+%  
+% As before, the first thing we need to do is become familiar with what the
+% standard form looks like according to the solver.  A quick view of this
+% is available through Gurobi's
+% <https://www.gurobi.com/documentation/6.5/refman/matlab_solving_models_with.html
+% online documentation>, while the details are available in the actual 
+% <http://www.gurobi.com/documentation/6.5/refman.pdf reference manual> (p.
+% 433).  The relevant parts for our purposes are 
+%
+% minimize  $x'Qx + c'x + alpha$
+% 
+% subject to $Ax = b$ and $l \le x \le u$.  
+%
+% and the function call is
+%
+% |gurobi(model, params)|
+% 
+% For Gurobi, the |model| argument is pieced together in a |struct| variable 
+% (which is essentially like a |list| in R) that contains different fields that 
+% correspond to the various parts of the optimization poblem.  The field of a 
+% struct is referenced with a period, so the syntax is |struct.field|.  
+% 
+% Here are a few notes on constructing the model, as the implementation is not 
+% as straightforward as |linprog|:
+%
+% * $c$ is required (so a vector of zeros is used if it is not needed), and 
+% |obj| is its corresponding field (|model.obj|)
+% * $A$ is also required, and it must be a sparse matrix (using the
+% |sparse| function).  Even if you do not have any constraints in your model, 
+% $A$ is still required and has to be sparse (so simply using [] doesn't
+% work).  As we will see in the lasso example, I usually use
+% |sparse(zeros(0, p));|, where $p$ is the dimension of the parameter
+% vector/optimization variable, to create a sparse empty matrix.  
+% * Linear inequality constraints are also possible, even though the standard 
+% form only has linear equality constraints.  The |sense| field specifies the
+% type of constraint, using either |'='|, |'<'|, or |'>'|.  A single value
+% can be used when all of the constraints are the same, otherwise for mixed
+% constraints there needs to be one value per row of $A$.  Since |A| is
+% required, |sense| is also required.
+% * The field for $b$ is |rhs|.  This is also required.  
+% * The field for $l$ is |lb|.  This is optional, but please note that the
+% default lower bound is zero, and not $-\infty$, which can be accomplished
+% by using |-inf(p, 1)|. 
+% * |params| is optional and can be used to specify options.  A list of
+% options is available on page 487 of the 
+% <http://www.gurobi.com/documentation/6.5/refman.pdf reference manual>.  I
+% typically only set the field |OutputFlag| to $0$ to suppress the output.
+% * |x| is the field in the output struct that has the solution.  The
+% solution includes several other output fields, detailed on p. 436 of the
+% referencec manual.
+%
+% Now that we have some background on |gurobi|, we can see it in action:
+
+%# Model Setup #%
+% linear coefficients
+gmodel.obj = [zeros(p, 1); ones(n, 1)];     
+% constraint matrix
+gmodel.A = [X -speye(n); -X -speye(n)];
+% constraint type. Only one value needed since all constraints are inequality
+gmodel.sense = '<';  
+% b vector for constraints
+gmodel.rhs = [y; -y];
+% lower bound (needed because default is zero)
+gmodel.lb = [-inf(p, 1); zeros(n, 1)];
+% suppress output
+gparam.OutputFlag = 0;
+
+%# Model Estiation #%
+tic;                                    % start timer
+gresult = gurobi(gmodel, gparam);       % estimate model
+toc;                                    % run time
+betaHatGurobiLP = gresult.x(1:p);       % extract estimates for beta
+ 
+
+
+
+
+
+%% LP Example: CVX
+% While Gurobi and MOSEK are solvers, <http://cvxr.com/cvx/ CVX> is a modeling 
+% tool which provides a much more user-friendly interface for solving 
+% optimization problems using a 
+% variety of solvers, saving the hassle of needing to massage the problem
+% into standard form or the hassle of having to learn each solver's syntax.  
+%
+% I will get into the details of CVX later, but for now, let's look at how
+% we would solve the $\ell_1$ regression problem using CVX.  
+
+%# Model Estiation #%
+tic;                                          % start timer
+cvx_begin quiet                               % initiate CVX, hiding output
+    variable betaHatCVX_LP(p);                % declare optimization variable
+    minimize(norm(y - X*betaHatCVX_LP, 1));   % define objective function
+cvx_end                                       % declare end of CVX statements
+toc;                                          % run time
+ 
+%%%
+% As you can see, the syntax is much more straightforward and succinct, and
+% essentially translates the original form of the problem directly to code 
+% without first having to massage it into an intermediate form for the sake of
+% estimation.  Here 
+
+
+%# Compare estimates #%
+% reduce the number of decimals displayed
+format short
+% display estimates
+display([betaHatLP betaHatCVX_LP betaHatGurobiLP])
+
+
+##### SOURCE END #####
+--></body></html>
