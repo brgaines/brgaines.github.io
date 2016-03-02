@@ -66,7 +66,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1>ST790 Advanced Computing Lab: Introduction to CVX</h1><!--introduction--><p>This file demonstrates how to use the modeling tool CVX to solve optimization problems, and also includes some examples of using MATLAB's and Gurobi's solvers directly.  It was originally created by <a href="http://brgaines.github.io/">Brian Gaines</a> for <a href="http://www.ericchi.com/">Eric Chi</a>'s ST790 Advanced Computing at NC State University.  The <a href="http://brgaines.github.io/talks/cvx/cvxDemo.html">companion slidedeck</a> provides additional information on CVX.  Any comments or suggestions are welcome.</p><p><b>This file requires:</b></p><div><ul><li>MATLAB's Optimization Toolbox (if you are an NCSU student, you have this)</li><li>The <a href="http://cvxr.com/cvx/">CVX toolbox</a> for disciplined convex optimization (preferrably with the professional license)</li><li><a href="http://brgaines.github.io/talks/cvx/cvxDemo.mat">cvxDemo.mat</a> data file in the working directory (or the load path will need to be changed)</li><li>A stand-alone installation of the <a href="http://www.gurobi.com/">Gurobi</a> solver is optional.  If you do not have a stand-alone installation of Gurobi, please change the <tt>gurobiInstalled</tt> string to equal <tt>'no'</tt> so the Gurobi-related code will be skipped.</li></ul></div><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Initial Setup</a></li><li><a href="#2">Linear Programming Example: <img src="cvxDemo_eq93608.png" alt="$\ell_1$"> regression (least absolute deviations)</a></li><li><a href="#3">LP Example: Linprog</a></li><li><a href="#8">LP Example: Gurobi</a></li><li><a href="#9">LP Example: CVX</a></li><li><a href="#11">Quadratic Programming Example: Lasso Regression</a></li><li><a href="#12">QP Example: Quadprog</a></li><li><a href="#13">QP Example: Gurobi</a></li><li><a href="#15">QP Example: CVX</a></li></ul></div><h2>Initial Setup<a name="1"></a></h2><pre class="codeinput"><span class="comment">% clean up workspace</span>
+  </style></head><body><div class="content"><h1>ST790 Advanced Computing Lab: Introduction to CVX</h1><!--introduction--><p>This file demonstrates how to use the modeling tool CVX to solve optimization problems, and also includes some examples of using MATLAB's and Gurobi's solvers directly.  It was originally created by <a href="http://brgaines.github.io/">Brian Gaines</a> for <a href="http://www.ericchi.com/">Eric Chi</a>'s ST790 Advanced Computing at NC State University.  The <a href="http://brgaines.github.io/talks/cvx/cvxDemo.html">companion slidedeck</a> provides additional information on CVX.  The code that generated this file is available (<a href="http://brgaines.github.io/talks/cvx/cvxDemo.m">cvxDemo.m</a>).  Any comments or suggestions are welcome.</p><p><b>This file requires:</b></p><div><ul><li>MATLAB's Optimization Toolbox (if you are an NCSU student, you have this)</li><li>The <a href="http://cvxr.com/cvx/">CVX toolbox</a> for disciplined convex optimization (preferrably with the professional license)</li><li><a href="http://brgaines.github.io/talks/cvx/cvxDemo.mat">cvxDemo.mat</a> data file in the working directory (or the load path will need to be changed)</li><li>A stand-alone installation of the <a href="http://www.gurobi.com/">Gurobi</a> solver is optional.  If you do not have a stand-alone installation of Gurobi, please change the <tt>gurobiInstalled</tt> string to equal <tt>'no'</tt> so the Gurobi-related code will be skipped.</li></ul></div><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Initial Setup</a></li><li><a href="#2">Linear Programming Example: <img src="cvxDemo_eq93608.png" alt="$\ell_1$"> regression (least absolute deviations)</a></li><li><a href="#3">LP Example: Linprog</a></li><li><a href="#8">LP Example: Gurobi</a></li><li><a href="#9">LP Example: CVX</a></li><li><a href="#11">Quadratic Programming Example: Lasso Regression</a></li><li><a href="#12">QP Example: Quadprog</a></li><li><a href="#13">QP Example: Gurobi</a></li><li><a href="#15">QP Example: CVX</a></li><li><a href="#17">Additional Example: 1-norm SVM</a></li></ul></div><h2>Initial Setup<a name="1"></a></h2><pre class="codeinput"><span class="comment">% clean up workspace</span>
 clear;
 
 <span class="comment">%######## Does this machine have a stand-alone Gurobi installation?? ########%</span>
@@ -84,7 +84,7 @@ thetaHatLP = linprog(f, A, b, [], [], lb);      <span class="comment">% estimate
 toc;                                            <span class="comment">% run time</span>
 betaHatLP = thetaHatLP(1:p1);                   <span class="comment">% extract estimates for beta</span>
 </pre><pre class="codeoutput">Optimization terminated.
-Elapsed time is 0.152545 seconds.
+Elapsed time is 0.115383 seconds.
 </pre><h2>LP Example: Gurobi<a name="8"></a></h2><p>Please note that this requires a standalone installation of <a href="http://www.gurobi.com/academia/for-universities">Gurobi</a>, which is free for academic users but was not required for this lab.  However, I do encourage the knowleddge of a commercial solver such as Gurobi or <a href="https://www.mosek.com/resources/academic-license">MOSEK</a> (both of which are free for academic users, follow the links) as those are state-of-the-art solvers and more efficient than MATLAB's built-in solvers and the R equivalents that I'm aware of (both Gurobi and MOSEK are available in R).</p><p>As before, the first thing we need to do is become familiar with what the standard form looks like according to the solver.  A quick view of this is available through Gurobi's <a href="https://www.gurobi.com/documentation/6.5/refman/matlab_solving_models_with.html">online documentation</a>, while the details are available in the actual <a href="http://www.gurobi.com/documentation/6.5/refman.pdf">reference manual</a> (p. 433).  The relevant parts for our purposes are</p><p>minimize  <img src="cvxDemo_eq56252.png" alt="$x'Qx + c'x + alpha$"></p><p>subject to <img src="cvxDemo_eq95733.png" alt="$Ax = b$"> and <img src="cvxDemo_eq70821.png" alt="$l \le x \le u$">.</p><p>and the function call is</p><p><tt>gurobi(model, params)</tt></p><p>For Gurobi, the <tt>model</tt> argument is pieced together in a <tt>struct</tt> variable (which is essentially like a <tt>list</tt> in R) that contains different fields that correspond to the various parts of the optimization poblem.  The field of a struct is referenced with a period, so the syntax is <tt>struct.field</tt>.</p><p>Here are a few notes on constructing the model, as the implementation is not as straightforward as <tt>linprog</tt>:</p><div><ul><li><img src="cvxDemo_eq27869.png" alt="$c$"> is required (so a vector of zeros is used if it is not needed), and <tt>obj</tt> is its corresponding field (<tt>model.obj</tt>)</li><li><img src="cvxDemo_eq31461.png" alt="$A$"> is also required, and it must be a sparse matrix (using the <tt>sparse</tt> function).  Even if you do not have any constraints in your model, <img src="cvxDemo_eq31461.png" alt="$A$"> is still required and has to be sparse (so simply using [] doesn't work).  As we will see in the lasso example, I usually use <tt>sparse(zeros(0, p));</tt>, where <img src="cvxDemo_eq01166.png" alt="$p$"> is the dimension of the parameter vector/optimization variable, to create a sparse empty matrix.</li><li>Linear inequality constraints are also possible, even though the standard form only has linear equality constraints.  The <tt>sense</tt> field specifies the type of constraint, using either <tt>'='</tt>, <tt>'&lt;'</tt>, or <tt>'&gt;'</tt>.  A single value can be used when all of the constraints are the same, otherwise for mixed constraints there needs to be one value per row of <img src="cvxDemo_eq31461.png" alt="$A$">.  Since <tt>A</tt> is required, <tt>sense</tt> is also required.</li><li>The field for <img src="cvxDemo_eq28812.png" alt="$b$"> is <tt>rhs</tt>.  This is also required.</li><li>The field for <img src="cvxDemo_eq45221.png" alt="$l$"> is <tt>lb</tt>.  This is optional, but please note that the default lower bound is zero, and not <img src="cvxDemo_eq52342.png" alt="$-\infty$">, which can be accomplished by using <tt>-inf(p, 1)</tt>.</li><li><tt>params</tt> is optional and can be used to specify options.  A list of options is available on page 487 of the <a href="http://www.gurobi.com/documentation/6.5/refman.pdf">reference manual</a>.  I typically only set the field <tt>OutputFlag</tt> to <img src="cvxDemo_eq12896.png" alt="$0$"> to suppress the output.</li><li><tt>x</tt> is the field in the output struct that has the solution.  The solution includes several other output fields, detailed on p. 436 of the referencec manual.</li></ul></div><p>Now that we have some background on <tt>gurobi</tt>, we can see it in action:</p><pre class="codeinput"><span class="comment">%# Model Setup #%</span>
 <span class="comment">% linear term</span>
 gmodel.obj = [zeros(p1, 1); ones(n1, 1)];
@@ -106,7 +106,7 @@ gparam.OutputFlag = 0;
     toc;                                    <span class="comment">% run time</span>
     betaHatGurobiLP = gresult.x(1:p1);      <span class="comment">% extract estimates for beta</span>
 <span class="keyword">end</span>
-</pre><pre class="codeoutput">Elapsed time is 0.005627 seconds.
+</pre><pre class="codeoutput">Elapsed time is 0.005019 seconds.
 </pre><h2>LP Example: CVX<a name="9"></a></h2><p>While Gurobi and MOSEK are solvers, <a href="http://cvxr.com/cvx/">CVX</a> is a modeling tool which provides a much more user-friendly interface for solving optimization problems using a variety of solvers, saving the hassle of needing to massage the problem into standard form or the hassle of having to learn each solver's syntax.</p><p>I will get into the details of CVX later, but for now, let's look at how we would solve the <img src="cvxDemo_eq93608.png" alt="$\ell_1$"> regression problem using CVX.</p><pre class="codeinput"><span class="comment">%# Model Estimation #%</span>
 tic;                                             <span class="comment">% start timer</span>
 cvx_begin <span class="string">quiet</span>                                  <span class="comment">% initiate CVX, hiding output</span>
@@ -123,7 +123,7 @@ format <span class="string">short</span>
 <span class="keyword">elseif</span> strcmpi(gurobiInstalled, <span class="string">'no'</span>)
     display([betaHatLP betaHatCVX_LP])
 <span class="keyword">end</span>
-</pre><pre class="codeoutput">Elapsed time is 0.066655 seconds.
+</pre><pre class="codeoutput">Elapsed time is 0.112309 seconds.
 
 ans =
 
@@ -269,7 +269,51 @@ title({<span class="string">'Lasso Solution Path: Using CVX'</span>, <span class
 xlabel(<span class="string">'lambda'</span>);
 ylabel(<span class="string">'betaHat(lambda)'</span>);
 xlim([min(lambdas), max(lambdas)]);
-</pre><img vspace="5" hspace="5" src="cvxDemo_01.png" alt=""> <img vspace="5" hspace="5" src="cvxDemo_02.png" alt=""> <img vspace="5" hspace="5" src="cvxDemo_03.png" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014a</a><br></p></div><!--
+</pre><img vspace="5" hspace="5" src="cvxDemo_01.png" alt=""> <img vspace="5" hspace="5" src="cvxDemo_02.png" alt=""> <img vspace="5" hspace="5" src="cvxDemo_03.png" alt=""> <h2>Additional Example: 1-norm SVM<a name="17"></a></h2><p>Here is an additional example of using CVX, this time for solving a 1-norm SVM <a href="http://dept.stat.lsa.umich.edu/~jizhu/pubs/Zhu-NIPS04.pdf">(Zhu et al., 2004)</a>, which is given by</p><p>minimize <img src="cvxDemo_eq69071.png" alt="$$\sum_{i = 1}^n \left[1 -  y_i \left(\beta_0 + \sum_{j=1}^p x_{ij} \beta_j \right) \right]_+ $$"></p><p>subject to <img src="cvxDemo_eq94761.png" alt="$$ || \beta ||_1 =\sum_{j=1}^p \beta_j \le t $$">,</p><p>where <img src="cvxDemo_eq67808.png" alt="$s \ge 0$"> is a tuning parameter.  This example involves a function, the hinge loss function, that is not already in the CVX function library.  However, we can quickly define a new function for this purpose, and since it follows the DCP ruleset, CVX can identify it as being convex.</p><pre class="codeinput"><span class="comment">% define function handle for hinge loss</span>
+hingeLoss = @(x) sum(max(0, 1 - x));
+</pre><p>With this in hand, the core part of the estimation code is</p><pre>   cvx_begin quiet
+       variable betaHatSVM(p3);
+       minimize( hingeLoss(y3.*(X3*betaHatSVM)) );
+       subject to;
+           norm(betaHatSVM(2:end), 1) &lt;= tValues(k);
+   cvx_end</pre><pre class="codeinput"><span class="comment">%# Model Estiation #%</span>
+<span class="comment">% create tuning parameter grid</span>
+tValues = (0:0.1:2.5);
+<span class="comment">% number of tuning parameters to consider</span>
+m = length(tValues);
+
+<span class="comment">% matrix to store parameter estimates</span>
+betaHatPath3 = NaN(p3, m);
+<span class="comment">% vector to store estimation time</span>
+svmTimerPath = NaN(1, m);
+
+<span class="comment">% solve model, looping over lambdas</span>
+<span class="keyword">for</span> k = 1:m
+    <span class="comment">% estimate model using CVX</span>
+    tic;
+    cvx_begin <span class="string">quiet</span>
+        variable <span class="string">betaHatSVM(p3)</span>;
+        minimize( hingeLoss(y3.*(X3*betaHatSVM)) );
+        subject <span class="string">to</span>;
+            norm(betaHatSVM(2:end), 1) &lt;= tValues(k);
+    cvx_end
+    <span class="comment">% store estimation time</span>
+    svmTimerPath(k) = toc;
+
+    <span class="comment">% store estimated coefficients</span>
+    betaHatPath3(:, k) = betaHatSVM;
+<span class="keyword">end</span>
+
+
+<span class="comment">% #Plot solution path #%</span>
+figure;
+plot(tValues, betaHatPath3(2:end, :));
+title({<span class="string">'1-norm SVM Solution Path (without intercept)'</span>, <span class="keyword">...</span>
+    [<span class="string">'Timing: '</span> num2str(sum(svmTimerPath)) <span class="string">' sec.'</span>] })
+xlabel(<span class="string">'t'</span>);
+ylabel(<span class="string">'betaHat(t)'</span>);
+xlim([min(tValues), max(tValues)]);
+</pre><img vspace="5" hspace="5" src="cvxDemo_04.png" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% ST790 Advanced Computing Lab: Introduction to CVX
 % This file demonstrates how to use the modeling tool CVX to solve optimization
@@ -279,8 +323,9 @@ xlim([min(lambdas), max(lambdas)]);
 % <http://www.ericchi.com/ Eric Chi>'s 
 % ST790 Advanced Computing at NC State University.  The 
 % <http://brgaines.github.io/talks/cvx/cvxDemo.html companion slidedeck>
-% provides additional information on CVX.  Any comments or
-% suggestions are welcome.  
+% provides additional information on CVX.  The code that generated this file is
+% available (<http://brgaines.github.io/talks/cvx/cvxDemo.m cvxDemo.m>).  Any 
+% comments or suggestions are welcome.  
 % 
 % *This file requires:*
 %
@@ -710,6 +755,80 @@ xlabel('lambda');
 ylabel('betaHat(lambda)');
 xlim([min(lambdas), max(lambdas)]);
 
+
+
+
+
+%% Additional Example: 1-norm SVM
+% Here is an additional example of using CVX, this time for solving a
+% 1-norm SVM 
+% <http://dept.stat.lsa.umich.edu/~jizhu/pubs/Zhu-NIPS04.pdf (Zhu et al.,
+% 2004)>, which is given by 
+%
+% minimize $$\sum_{i = 1}^n \left[1 -  y_i \left(\beta_0 + \sum_{j=1}^p x_{ij} 
+% \beta_j \right) \right]_+ $$
+%
+% subject to $$ || \beta ||_1 =\sum_{j=1}^p \beta_j \le t $$, 
+% 
+% where $s \ge 0$ is a tuning parameter.  This example involves a function, the 
+% hinge loss function, that is not already
+% in the CVX function library.  However, we can quickly define a new function 
+% for this purpose, and since it follows the DCP ruleset, CVX can identify it as
+% being convex.
+
+% define function handle for hinge loss
+hingeLoss = @(x) sum(max(0, 1 - x));
+%%%
+% With this in hand, the core part of the estimation code is
+%
+%     cvx_begin quiet
+%         variable betaHatSVM(p3);
+%         minimize( hingeLoss(y3.*(X3*betaHatSVM)) );
+%         subject to;
+%             norm(betaHatSVM(2:end), 1) <= tValues(k);
+%     cvx_end
+%
+
+%# Model Estiation #%
+% create tuning parameter grid 
+tValues = (0:0.1:2.5);
+% number of tuning parameters to consider 
+m = length(tValues);
+
+% matrix to store parameter estimates 
+betaHatPath3 = NaN(p3, m);
+% vector to store estimation time
+svmTimerPath = NaN(1, m); 
+
+% solve model, looping over lambdas
+for k = 1:m
+    % estimate model using CVX
+    tic;
+    cvx_begin quiet
+        variable betaHatSVM(p3);
+        minimize( hingeLoss(y3.*(X3*betaHatSVM)) );
+        subject to;
+            norm(betaHatSVM(2:end), 1) <= tValues(k);
+    cvx_end
+    % store estimation time
+    svmTimerPath(k) = toc;
+        
+    % store estimated coefficients
+    betaHatPath3(:, k) = betaHatSVM;
+end
+
+
+% #Plot solution path #%
+figure;
+plot(tValues, betaHatPath3(2:end, :));
+title({'1-norm SVM Solution Path (without intercept)', ...
+    ['Timing: ' num2str(sum(svmTimerPath)) ' sec.'] })
+xlabel('t');
+ylabel('betaHat(t)');
+xlim([min(tValues), max(tValues)]);
+
+
+ 
 
 ##### SOURCE END #####
 --></body></html>
