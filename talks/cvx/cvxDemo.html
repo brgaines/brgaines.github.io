@@ -129,7 +129,7 @@
 
 <ul>
 <li>Validate method before spending time on algorithm development</li>
-<li>Provides benchmark to validate algorithm</li>
+<li>Provides benchmark to faster algorithms</li>
 </ul></li>
 <li>Well-<a href='http://web.cvxr.com/cvx/doc/' title='CVX Users&#39; Guide'>documented</a> with lots of <a href='http://cvxr.com/cvx/examples/' title='CVX example library'>examples</a></li>
 </ul></li>
@@ -173,6 +173,8 @@
 <li><a href='http://brgaines.github.io/talks/cvx/cvxDemo/cvxDemo.html#11' title='Link to QP example'>Quadratic Programming: Lasso regression</a></li>
 </ul></li>
 </ul>
+
+<p>The <a href='http://brgaines.github.io/talks/cvx/cvxDemo.m' title=''>source code</a> and <a href='http://brgaines.github.io/talks/cvx/cvxDemo.mat' title=''>data</a> are also available if you would like to play around with them on your own.</p>
 
 </article></slide><slide class='segue dark nobackground'><hgroup class = 'auto-fadein'><h2>CVX Overview</h2></hgroup><article  id="cvx-overview">
 
@@ -382,11 +384,11 @@ cvx_end</pre>
 <p>Here are a few more examples to see CVX in action</p>
 
 <ul>
-<li>1-nom SVM</li>
+<li><a href='http://brgaines.github.io/talks/cvx/cvxDemo/cvxDemo.html#17' title=''>1-nom SVM</a></li>
 <li>Convex Clustering</li>
 </ul>
 
-<p>The <a href='cvxr.com/cvx/examples/' title=''>CVX example library</a> has a ton of examples!</p>
+<p>The <a href='http://cvxr.com/cvx/examples/' title=''>CVX example library</a> has a ton of examples!</p>
 
 <p>The CVX Users&#39; Guide also covers some <a href='http://cvxr.com/cvx/doc/advanced.html' title=''>advanced topics</a> after you&#39;re familiar with the basics</p>
 
@@ -410,9 +412,87 @@ cvx_end</pre>
 <ul>
 <li>Supposedly, it&#39;s getting a makeover in the next version</li>
 </ul></li>
+<li>Publishing code can take a little while (code is reevaluated)
+
+<ul>
+<li>I often use a separate, small working file to finalize the code and text for each section</li>
+</ul></li>
 </ul>
 
-</article></slide><slide class=''><hgroup><h2>How to Publish?</h2></hgroup><article  id="how-to-publish"></article></slide>
+</article></slide><slide class=''><hgroup><h2>How to Publish?</h2></hgroup><article  id="how-to-publish">
+
+<ol>
+<li>MATLAB Editor: &quot;Publish&quot; tab \(\Rightarrow\) &quot;Publish&quot; button
+
+<ul>
+<li>May need to add the script&#39;s directory to MATLAB&#39;s path</li>
+<li>Green triangle part of the Publish button publishes the document</li>
+<li>Small black triangle opens a small menu
+
+<ul>
+<li>One option is to &quot;Edit Publishing Options&#8230;&quot;
+
+<ul>
+<li>Output format, destination folder, image format, whether code is included or evaluted</li>
+</ul></li>
+</ul></li>
+<li>&quot;Publish&quot; menu has a lot of useful shortcuts</li>
+</ul></li>
+<li>Use the <code>publish</code> function (<code>publish(&#39;filename.m&#39;)</code>)</li>
+</ol>
+
+</article></slide><slide class=''><hgroup><h2>Which Format?</h2></hgroup><article  id="which-format">
+
+<ul>
+<li>HTML is the default and is what I typically use
+
+<ul>
+<li>It&#39;s not very mobile as a stand alone file because it needs local copies of the supporting images
+
+<ul>
+<li>I create a PDF using the HTML file for mobility</li>
+</ul></li>
+<li>The math images it creates are poor quality (<a href='http://stackoverflow.com/questions/21948601/how-to-set-the-font-settings-in-pdf-publish-via-matlab-and-Latex' title=''>workaround</a>)</li>
+</ul></li>
+<li>PDF is mobile but sometimes the page breaks can make the formatting look weird
+
+<ul>
+<li>The math images are also poor quality</li>
+</ul></li>
+<li>TeX requires the .tex file to be compiled separately to PDF
+
+<ul>
+<li>It DOES have nice-looking math, but no syntax highlighting for code chunks
+
+<ul>
+<li>This may be possible with an additional tex package</li>
+</ul></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Formatting Basics</h2></hgroup><article  id="formatting-basics">
+
+<p><code>%</code> is the symbol for commenting on MATLAB code, and plays an important role</p>
+
+<p>To start a new &quot;cell&quot; of markup in a new section (in both document and code)</p>
+
+<pre >%% Section Title (optional, will appear in Table of Contents)
+% Document text starts here</pre>
+
+<p>If we want a new section in the document that is in the same section in the code, triple &quot;%&quot; is used</p>
+
+<pre >%%% Section Title (optional, will appear in Table of Contents)
+% Document text starts here</pre>
+
+</article></slide><slide class=''><hgroup><h2>Publish Demo &amp; Resources</h2></hgroup><article  id="publish-demo-resources">
+
+<p>I put together a short demo, as that&#39;s probably the easiest way to learn how to use Publish</p>
+
+<ul>
+<li><a href='http://brgaines.github.io/talks/cvx/publishDemo.m' title=''>Source code</a>, <a href='http://brgaines.github.io/talks/cvx/publishDemo/publishDemo.html' title=''>html output</a>, <a href='http://brgaines.github.io/talks/cvx/publishDemo/publishDemo.pdf' title=''>PDF output</a>, <a href='http://brgaines.github.io/talks/cvx/publishDemo/publishDemoHTML.pdf' title=''>PDF from HTML</a>, <a href='http://brgaines.github.io/talks/cvx/publishDemo/publishDemoLatex.pdf' title=''>PDF from LateX</a></li>
+</ul>
+
+<p>The <a href='http://www.mathworks.com/help/matlab/matlab_prog/marking-up-matlab-comments-for-publishing.html' title='MATLAB help document on Publish'>MATLAB page</a> on using Publish is also very useful</p></article></slide>
 
 
   <slide class="backdrop"></slide>
