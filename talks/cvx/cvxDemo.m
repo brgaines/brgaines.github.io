@@ -4,7 +4,8 @@
 % solvers directly.  It was originally created by 
 % <http://brgaines.github.io/ Brian Gaines> for 
 % <http://www.ericchi.com/ Eric Chi>'s 
-% ST790 Advanced Computing at NC State University.  The 
+% <http://www.stat.ncsu.edu/people/chi/courses/ST790/ ST790 Advanced Computing>
+% at NC State University.  The 
 % <http://brgaines.github.io/talks/cvx/cvxDemo.html companion slidedeck>
 % provides additional information on CVX.  The code that generated this file is
 % available (<http://brgaines.github.io/talks/cvx/cvxDemo.m cvxDemo.m>).  Any 
