@@ -5,14 +5,14 @@ excerpt: "Talks I've given"
 modified: 2016-03-02
 ---
 ## March 2, 2016 - Introduction to CVX & Publish
-I gave a guest lecture in [Eric Chi's](http://www.ericchi.com/) [Advanced Computing](http://www.stat.ncsu.edu/people/chi/courses/ST790/) course on an introduction to [CVX](http://cvxr.com/cvx/), a modeling tool for solving convex optimization problems in MATLAB.  I also briefly discuss MATLAB's publish feature to integrate code, output, and markup into one document.  The materials from the talk are available in hopes that others find them useful:
+I gave a guest lecture in [Eric Chi's](http://www.ericchi.com/) [Advanced Computing](http://www.stat.ncsu.edu/people/chi/courses/ST790/) course on an introduction to [CVX](http://cvxr.com/cvx/), a modeling tool for solving convex optimization problems in MATLAB.  I also briefly discussed MATLAB's publish feature to integrate code, output, and markup into one document.  The materials from the talk are available in hopes that others find them useful:
 
 - [Slides](http://brgaines.github.io/talks/cvx/cvxDemo.html)
-- CVX materials
+- CVX-related materials
 	- [Source code](http://brgaines.github.io/talks/cvx/cvxDemo.m)
 	- [Data file](http://brgaines.github.io/talks/cvx/cvxDemo.mat)
 	- [Marked-up output](http://brgaines.github.io/talks/cvx/cvxDemo/cvxDemo.html)
-- Publish materials
+- Publish-related materials
 	- [Source file](http://brgaines.github.io/talks/cvx/publishDemo.m)
 	- [Marked-up output](http://brgaines.github.io/talks/cvx/publishDemo/publishDemo.html)
 
