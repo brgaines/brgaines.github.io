@@ -12,7 +12,7 @@ url: #brgaines.github.io
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
@@ -49,5 +49,5 @@ owner:
     analytics: UA-58411279-1
     verify:
     ad-client:
-    ad-slot: 
+    ad-slot:
   bing-verify:
