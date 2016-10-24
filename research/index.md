@@ -17,6 +17,6 @@ My other research projects focus on extensions of a convex formulation of cluste
 
 - Jarrett, M., Bailey, K., Messenger, K., Prange, T., **Gaines, B**., and Posner, L. (2016).  “Recovery of Horses from Heneral Anesthesia Following Induction with Either Propofol or Midazolam Followed by Ketamine,”  *Journal of the American Veterinary Medical Association*, forthcoming.
 
-- Muller, C., **Gaines, B**., et al. (2016).  “Evaluation of Clinical Metrololgy Instrument in Dogs with Osteoarthritis.”  *Journal of Veterinary Internal Medicine*, 30(3), 836-846.
+- Muller, C., **Gaines, B**., et al. (2016).  “[Evaluation of Clinical Metrology Instrument in Dogs with Osteoarthritis](https://www.ncbi.nlm.nih.gov/pubmed/26971876).”  *Journal of Veterinary Internal Medicine*, 30(3), 836-846. [[BibTeX](http://brgaines.github.io/research/mullerGaines16.bib)]
 
-- Jarque, A., and **Gaines, B**. (2013). "[Regulation and the Composition of CEO Pay](https://www.richmondfed.org/publications/research/economic_quarterly/2012/q4/pdf/jarque.pdf)." *Federal Reserve Bank of Richmond Economic Quarterly*, 98(4), 309-348. [[BibTeX](http://brgaines.github.io/research/jarquegaines12.bib)]
+- Jarque, A., and **Gaines, B**. (2012). "[Regulation and the Composition of CEO Pay](https://www.richmondfed.org/publications/research/economic_quarterly/2012/q4/pdf/jarque.pdf)." *Federal Reserve Bank of Richmond Economic Quarterly*, 98(4), 309-348. [[BibTeX](http://brgaines.github.io/research/jarqueGaines12.bib)]
