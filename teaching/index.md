@@ -13,7 +13,7 @@ This semester I am an instructor for ST311 under the supervision of Dr. Roger Wo
 
 * ST311 - Introduction to Statistics
     * Lecturer - three summer sessions
-    * Instructor - two semesters
+    * Instructor - three semesters
     * Grader - one summer session
 
 * ST350 – Economics & Business Statistics
