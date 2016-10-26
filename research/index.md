@@ -11,6 +11,11 @@ I am very fortunate to have [Hua Zhou](http://hua-zhou.github.io/) and [Eric Chi
 
 My other research projects focus on extensions of a convex formulation of clustering that has been studied recently [(Chen et al., 2015;](http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004228)[ Chi and Lange, 2015)](http://www.tandfonline.com/doi/abs/10.1080/10618600.2014.948181#.VHVPyt5WVzo).
 
+### In Progress
+
+* **Gaines, B**., and Zhou, H. (2016).  "Algorithms for Fitting the Constrained Lasso."
+
+* Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2016). "Metabolic State of White-Spotted Bamboo Sharks (Chiloscyllium plagiosum) Following Nutrient Enemas."
 
 ### Publications
 - Balko, J., Wilson, S., Lewbart, G., **Gaines, B**., and Posner, L. (2017).  “Propofol as an Immersion Anesthetic and in a Minimum Anesthetic Concentration (MAC) Reduction Model In Goldfish (Carassius Auratus),”  *Journal of Zoo and Wildlife Medicine*, forthcoming.
@@ -20,3 +25,9 @@ My other research projects focus on extensions of a convex formulation of cluste
 - Muller, C., **Gaines, B**., et al. (2016).  “[Evaluation of Clinical Metrology Instrument in Dogs with Osteoarthritis](https://www.ncbi.nlm.nih.gov/pubmed/26971876).”  *Journal of Veterinary Internal Medicine*, 30(3), 836-846. [[BibTeX](http://brgaines.github.io/research/mullerGaines16.bib)]
 
 - Jarque, A., and **Gaines, B**. (2012). "[Regulation and the Composition of CEO Pay](https://www.richmondfed.org/publications/research/economic_quarterly/2012/q4/pdf/jarque.pdf)." *Federal Reserve Bank of Richmond Economic Quarterly*, 98(4), 309-348. [[BibTeX](http://brgaines.github.io/research/jarqueGaines12.bib)]
+
+### Other Papers
+
+* **Gaines, B**. (2013). "Anomaly Detection via the Graph Scan Statistic." Unpublished written preliminary exam.
+
+* **Gaines, B**. (2013). "Anomaly Detection using Multiple Scales of the Graph Scan Statistic: A Simulation Study." Unpublished written preliminary exam.
