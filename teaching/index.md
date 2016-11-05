@@ -27,7 +27,7 @@ This semester I am an instructor for ST311 under the supervision of Dr. Roger Wo
     * Guest Lecturer - two classes
 
 * ST790 - Advanced Computing
-	* [Guest Lecture](http://brgaines.github.io/talks/)
+	* [Guest Lecturer](http://brgaines.github.io/talks/) - one class
 
 * ECON202 - Money & Banking ([University of Richmond](http://www.richmond.edu/))
     * Guest Lecturer - one class
