@@ -13,7 +13,7 @@ My other research projects focus on extensions of a convex formulation of cluste
 
 ### In Progress
 
-* **Gaines, B**., and Zhou, H. (2016).  "Algorithms for Fitting the Constrained Lasso."
+* **Gaines, B**., and Zhou, H. (2016).  "[Algorithms for Fitting the Constrained Lasso](https://arxiv.org/abs/1611.01511)."
 
 * Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2016). "Metabolic State of White-Spotted Bamboo Sharks (Chiloscyllium plagiosum) Following Nutrient Enemas."
 
