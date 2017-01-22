@@ -13,9 +13,9 @@ My other research projects focus on extensions of a convex formulation of cluste
 
 ### In Progress
 
-* **Gaines, B**., and Zhou, H. (2016).  "[Algorithms for Fitting the Constrained Lasso](https://arxiv.org/abs/1611.01511)," submitted.
+* **Gaines, B**., and Zhou, H. (2017).  "[Algorithms for Fitting the Constrained Lasso](https://arxiv.org/abs/1611.01511)," submitted.
 
-* Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2016). "Metabolic State of White-Spotted Bamboo Sharks (Chiloscyllium plagiosum) Following Nutrient Enemas."
+* Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2017). "Metabolic State of White-Spotted Bamboo Sharks (Chiloscyllium plagiosum) Following Nutrient Enemas."
 
 ### Publications
 - Balko, J., Wilson, S., Lewbart, G., **Gaines, B**., and Posner, L. (2017).  “Propofol as an Immersion Anesthetic and in a Minimum Anesthetic Concentration (MAC) Reduction Model In Goldfish (Carassius Auratus),”  *Journal of Zoo and Wildlife Medicine*, forthcoming.
