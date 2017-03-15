@@ -9,7 +9,7 @@ During the 2014-15 academic year I had the privilege of providing [statistical c
 
 In recognition of my performance as a consultant for the vet school, I was awarded the Francis G. Giesbrecht Award for Statistical Consulting by the NCSU Department of Statistics.
 
-I also provide free-lane statistical consulting on the side.  For example, I served as a [consultant](http://hockeystickprinciples.com/about/) for [Bobby Martin's](http://hockeystickprinciples.com/) book, *[The Hockey Stick Principles](https://www.amazon.com/Hockey-Stick-Principles-Entrepreneurial-Success/dp/1250066379).*
+I also provide free-lance statistical consulting on the side.  For example, I served as a [consultant](http://hockeystickprinciples.com/about/) for [Bobby Martin's](http://hockeystickprinciples.com/) book, *[The Hockey Stick Principles](https://www.amazon.com/Hockey-Stick-Principles-Entrepreneurial-Success/dp/1250066379).*
 
 Please contact me at brgaines (at) ncsu (dot) edu if you are interested in my statistical consulting services.
 
