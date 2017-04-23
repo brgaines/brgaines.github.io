@@ -18,9 +18,9 @@ My other research projects focus on extensions of a convex formulation of cluste
 * Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2017). "Metabolic State of White-Spotted Bamboo Sharks (Chiloscyllium plagiosum) Following Nutrient Enemas."
 
 ### Publications
-- Balko, J., Wilson, S., Lewbart, G., **Gaines, B**., and Posner, L. (2017).  “Propofol as an Immersion Anesthetic and in a Minimum Anesthetic Concentration (MAC) Reduction Model In Goldfish (Carassius Auratus),”  *Journal of Zoo and Wildlife Medicine*, forthcoming.
+- Jarrett, M., Bailey, K., Messenger, K., Prange, T., **Gaines, B**., and Posner, L. (2016).  “Recovery of Horses from General Anesthesia Following Induction with Either Propofol or Midazolam Followed by Ketamine,”  *Journal of the American Veterinary Medical Association*, forthcoming.
 
-- Jarrett, M., Bailey, K., Messenger, K., Prange, T., **Gaines, B**., and Posner, L. (2016).  “Recovery of Horses from Heneral Anesthesia Following Induction with Either Propofol or Midazolam Followed by Ketamine,”  *Journal of the American Veterinary Medical Association*, forthcoming.
+- Balko, J., Wilson, S., Lewbart, G., **Gaines, B**., and Posner, L. (2017).  “[Propofol as an Immersion Anesthetic and in a Minimum Anesthetic Concentration (MAC) Reduction Model In Goldfish (Carassius Auratus)](https://www.ncbi.nlm.nih.gov/pubmed/28363074),”  *Journal of Zoo and Wildlife Medicine*, 48(1), 48-54. [[BibTeX](http://brgaines.github.io/research/balkoEtAl17.bib)]
 
 - Muller, C., **Gaines, B**., et al. (2016).  “[Evaluation of Clinical Metrology Instrument in Dogs with Osteoarthritis](https://www.ncbi.nlm.nih.gov/pubmed/26971876).”  *Journal of Veterinary Internal Medicine*, 30(3), 836-846. [[BibTeX](http://brgaines.github.io/research/mullerGaines16.bib)]
 
