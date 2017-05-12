@@ -28,6 +28,8 @@ My other research projects focus on extensions of a convex formulation of cluste
 
 ### Other Papers
 
+* **Gaines, B**., and Fine, A. (2016). "Multilevel Modeling of Product Sales Data." Unpublished internal technical report, MaxPoint Interactive.
+
 * **Gaines, B**. (2013). "Anomaly Detection via the Graph Scan Statistic." Unpublished written preliminary exam.
 
 * **Gaines, B**. (2013). "Anomaly Detection using Multiple Scales of the Graph Scan Statistic: A Simulation Study." Unpublished written preliminary exam.
