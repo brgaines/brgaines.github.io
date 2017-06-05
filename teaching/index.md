@@ -13,7 +13,7 @@ This semester I am an instructor for ST311 under the supervision of Dr. Roger Wo
 
 * ST311 - Introduction to Statistics
     * Lecturer - three summer sessions
-    * Instructor - three semesters
+    * Instructor - five semesters
     * Grader - one summer session
 
 * ST350 – Economics & Business Statistics
@@ -27,7 +27,7 @@ This semester I am an instructor for ST311 under the supervision of Dr. Roger Wo
     * Guest Lecturer - two classes
 
 * ST790 - Advanced Computing
-	* [Guest Lecturer](http://brgaines.github.io/talks/) - one class
+	* [Guest Lecturer](http://brgaines.github.io/talks/) - two classes
 
 * ECON202 - Money & Banking ([University of Richmond](http://www.richmond.edu/))
     * Guest Lecturer - one class
