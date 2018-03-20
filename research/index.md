@@ -13,7 +13,7 @@ My other research projects focued on a convex formulation of clustering that has
 
 ### In Progress
 
-* Chi, E., **Gaines, B**., Sun, W. W., Zhou, H., and Yang, J. (2018).  "Provable Convex Co-clustering of Tensors," submitted.
+* Chi, E., **Gaines, B**., Sun, W. W., Zhou, H., and Yang, J. (2018).  "[Provable Convex Co-clustering of Tensors](https://arxiv.org/abs/1803.06518)," submitted.
 
 * **Gaines, B**., Kim, J., and Zhou, H. (2018).  "[Algorithms for Fitting the Constrained Lasso](https://arxiv.org/abs/1611.01511)," under revision.
 
