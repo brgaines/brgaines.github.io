@@ -15,6 +15,7 @@ I recently finished my PhD in statistics at [North Carolina State University](ht
 
 ### Recent News
 * I will be attending and presenting software demos at [SAS Global Forum 2018](https://www.sas.com/en_us/events/sas-global-forum.html) in Denver, Colorado, which will be held April 8-11.  In addition to working the demo booth for SAS Studio tasks and SAS University Edition, I will also be presenting super demos at the following times:
+
 | Day     | Time  | Title                                                               | Session | Location     |
 |---------|-------|---------------------------------------------------------------------|---------|--------------|
 | Monday  | 10:30 | Modern Variable Selection at Scale Using SAS® Viya® and SAS® Studio | SD803   | Super Demo 8 |
