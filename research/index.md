@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt: "research"
-modified: 2018-01-23
+modified: 2018-04-02
 ---
 
 My research interests include machine learning, big and high-dimensional data, and computational statistics. Essentially, I am very intrigued and amazed by the possibilities of big data and the questions it can answer.
@@ -15,7 +15,7 @@ My other research projects focued on a convex formulation of clustering that has
 
 * Chi, E., **Gaines, B**., Sun, W. W., Zhou, H., and Yang, J. (2018).  "[Provable Convex Co-clustering of Tensors](https://arxiv.org/abs/1803.06518)," submitted.
 
-* **Gaines, B**., Kim, J., and Zhou, H. (2018).  "[Algorithms for Fitting the Constrained Lasso](https://arxiv.org/abs/1611.01511)," under revision.
+* **Gaines, B**., Kim, J., and Zhou, H. (2018).  "[Algorithms for Fitting the Constrained Lasso](https://arxiv.org/abs/1611.01511)," under revision. [[MATLAB toolbox](https://github.com/Hua-Zhou/SparseReg)] [[Julia package](https://github.com/Hua-Zhou/ConstrainedLasso.jl)]
 
 * Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2017). "Metabolic State of White-Spotted Bamboo Sharks (Chiloscyllium plagiosum) Following Nutrient Enemas," submitted.
 
