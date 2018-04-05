@@ -15,7 +15,7 @@ My other research projects focued on a convex formulation of clustering that has
 
 * Chi, E., **Gaines, B**., Sun, W. W., Zhou, H., and Yang, J. (2018).  "[Provable Convex Co-clustering of Tensors](https://arxiv.org/abs/1803.06518)," submitted.
 
-* **Gaines, B**., Kim, J., and Zhou, H. (2018).  "[Algorithms for Fitting the Constrained Lasso](https://arxiv.org/abs/1611.01511)," under revision. [[MATLAB toolbox](https://github.com/Hua-Zhou/SparseReg)] [[Julia package](https://github.com/Hua-Zhou/ConstrainedLasso.jl)]
+* **Gaines, B**., Kim, J., and Zhou, H. (2018).  "[Algorithms for Fitting the Constrained Lasso](https://arxiv.org/abs/1611.01511)," under revision. [[MATLAB toolbox](http://hua-zhou.github.io/SparseReg/)] [[Julia package](https://github.com/Hua-Zhou/ConstrainedLasso.jl)]
 
 * Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2017). "Metabolic State of White-Spotted Bamboo Sharks (Chiloscyllium plagiosum) Following Nutrient Enemas," submitted.
 
