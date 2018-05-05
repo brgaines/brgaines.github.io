@@ -18,7 +18,7 @@ My other research projects focued on a convex formulation of clustering that has
 * Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2017). "Metabolic State of White-Spotted Bamboo Sharks (Chiloscyllium plagiosum) Following Nutrient Enemas," submitted.
 
 ### Publications
-- **Gaines, B**., Kim, J., and Zhou, H. (2018).  "Algorithms for Fitting the Constrained Lasso," *Journal of Computational and Graphical Statistics*, in press.  [[arXiv](https://arxiv.org/abs/1611.01511)] [[MATLAB toolbox](http://hua-zhou.github.io/SparseReg/)] [[Julia package](https://github.com/Hua-Zhou/ConstrainedLasso.jl)]
+- **Gaines, B**., Kim, J., and Zhou, H. (2018).  "Algorithms for Fitting the Constrained Lasso," *Journal of Computational and Graphical Statistics*, forthcoming.  [[arXiv](https://arxiv.org/abs/1611.01511)] [[MATLAB toolbox](http://hua-zhou.github.io/SparseReg/)] [[Julia package](https://github.com/Hua-Zhou/ConstrainedLasso.jl)]
 
 - Jarrett, M., Bailey, K., Messenger, K., Prange, T., **Gaines, B**., and Posner, L. (2017).  “Recovery of Horses from General Anesthesia Following Induction with Either Propofol or Midazolam Followed by Ketamine,”  *Journal of the American Veterinary Medical Association*, forthcoming.
 
