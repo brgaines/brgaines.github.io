@@ -20,7 +20,7 @@ My other research projects focued on a convex formulation of clustering that has
 ### Publications
 - Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2019). "Effect of Nutrient Enema on Serum Nutrient Concentrations in White-Spotted Bamboo Sharks (Chiloscyllium Plagiosum)," *Journal of Zoo and Wildlife Medicine*, forthcoming.
 
-- **Gaines, B**., Kim, J., and Zhou, H. (2018).  "[Algorithms for Fitting the Constrained Lasso](https://www.tandfonline.com/doi/full/10.1080/10618600.2018.1473777)," *Journal of Computational and Graphical Statistics*, 27(4), 861-871. [[BibTeX](http://brgaines.github.io/research/GainesKimZhou18.bib)] [[MATLAB toolbox](http://hua-zhou.github.io/SparseReg/)] [[Julia package](https://github.com/Hua-Zhou/ConstrainedLasso.jl)]
+- **Gaines, B**., Kim, J., and Zhou, H. (2018).  "[Algorithms for Fitting the Constrained Lasso](https://www.tandfonline.com/doi/full/10.1080/10618600.2018.1473777)," *Journal of Computational and Graphical Statistics*, 27(4), 861-871. [[BibTeX](http://brgaines.github.io/research/gainesKimZhou18.bib)] [[MATLAB toolbox](http://hua-zhou.github.io/SparseReg/)] [[Julia package](https://github.com/Hua-Zhou/ConstrainedLasso.jl)]
 
 - Jarrett, M., Bailey, K., Messenger, K., Prange, T., **Gaines, B**., and Posner, L. (2018).  “[Recovery of Horses from General Anesthesia After Induction with Propofol and Ketamine Versus Midazolam and Ketamine](https://www.ncbi.nlm.nih.gov/pubmed/29911938),”  *Journal of the American Veterinary Medical Association*, 253(1), 101-107.
 
