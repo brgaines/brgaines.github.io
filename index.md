@@ -22,6 +22,7 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 | Monday  | 2:30  | [Build Fully Connected Neural Networks with SAS® Studio Tasks and SAS® Viya®](http://sasgfsessioncatalog.com/#/filter/Type%7C%7CView%20All%5E@79)                                                    | SD409   | Super Demo 4 |
 | Tuesday | 3:30 | [Easily Perform Competing-Risks Survival Analysis with SAS® Studio Tasks](http://sasgfsessioncatalog.com/#/filter/Type%7C%7CView%20All%5E@181)       | SD321   | Super Demo 3 |
 
-You can explore and reproduce the examples in my paper by first installing [SAS® University Edition](https://www.sas.com/en_us/software/university-edition.html) (which is free for academic, non-commercial use) and then downloading the Jupyter notebooks and data from the [SAS Global Form 2019 repository on GitHub](https://github.com/sascommunities/sas-global-forum-2019/tree/master/3133-2019-Gaines).  Your comments and questions are encouraged!
+* You can explore and reproduce the examples in my paper by first installing [SAS® University Edition](https://www.sas.com/en_us/software/university-edition.html) (which is free for academic, non-commercial use) and then downloading the Jupyter notebooks and data from the [SAS Global Form 2019 repository on GitHub](https://github.com/sascommunities/sas-global-forum-2019/tree/master/3133-2019-Gaines).  Your comments and questions are encouraged!
+
 
 
