@@ -10,9 +10,9 @@ I attended SAS Global Forum (SGF) for the first time this year and presented thr
 Shortened versions of the demos can be watched below.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1bq4n3DMNE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pFqSKaTo-pc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S6wWBEr5H3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## August 3, 2017 -- Joint Statistical Meetings
