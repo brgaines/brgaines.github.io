@@ -5,9 +5,9 @@ excerpt: "Presentations I have given"
 modified: 2019-04-18
 ---
 ## April, 2018 -- SAS Global Forum 2018
-I attended SAS Global Forum (SGF) for the first time this year and presented three software demos on the tasks in SAS® Studio.  I am grateful for the opportuity to attend SGF -- it was a good experience and I had a lot of great interactions with our users.  
+I attended SAS Global Forum (SGF) for the first time this year and presented three software demos on the tasks in SAS® Studio.  I am grateful for the opportuity to attend SGF -- it was a good experience and I had a lot of great interactions with our users.
 
-Shortened versions of the demos can be watched below.  
+Shortened versions of the demos can be watched below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1bq4n3DMNE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
