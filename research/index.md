@@ -18,7 +18,7 @@ My other research projects focued on a convex formulation of clustering that has
 
 
 ### Publications
-- Parkinson, L., Thomas, P., **Gaines, B**., and Nollens, H.  (2019). "Effect of Nutrient Enema on Serum Nutrient Concentrations in White-Spotted Bamboo Sharks (Chiloscyllium Plagiosum)," *Journal of Zoo and Wildlife Medicine*, forthcoming.
+- Parkinson, L., **Gaines, B**., and Nollens, H.  (2019). "Effect of Nutrient Enema on Serum Nutrient Concentrations in White-Spotted Bamboo Sharks (Chiloscyllium Plagiosum)," *Journal of Zoo and Wildlife Medicine*, 50(1), 55-61. [[BibTeX](http://brgaines.github.io/research/parkinsonGainesNollens19.bib)]
 
 - **Gaines, B**., Kim, J., and Zhou, H. (2018).  "[Algorithms for Fitting the Constrained Lasso](https://www.tandfonline.com/doi/full/10.1080/10618600.2018.1473777)," *Journal of Computational and Graphical Statistics*, 27(4), 861-871. [[BibTeX](http://brgaines.github.io/research/gainesKimZhou18.bib)] [[MATLAB toolbox](http://hua-zhou.github.io/SparseReg/)] [[Julia package](https://github.com/Hua-Zhou/ConstrainedLasso.jl)]
 
