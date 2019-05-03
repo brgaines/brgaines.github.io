@@ -32,7 +32,7 @@ My other research projects focued on a convex formulation of clustering that has
 
 ### Other Papers
 
-* **Gaines, B**. (2019).  "[Learning Data Science with SAS® University Edition and JupyterLab](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3133-2019.pdf)."  In Proceedings of the SAS Global Forum 2019 Conference. Cary, NC: SAS Institute Inc.
+* **Gaines, B**. (2019).  "[Learning Data Science with SAS® University Edition and JupyterLab](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3133-2019.pdf)."  In Proceedings of the SAS Global Forum 2019 Conference. Cary, NC: SAS Institute Inc. [[BibTeX](http://brgaines.github.io/research/gainesSGF19.bib)]
 
 * **Gaines, B**. (2017). "[Penalized Estimation in Statistics: Applications & Algorithms](http://www.lib.ncsu.edu/resolver/1840.20/34690) (Doctoral dissertation)." North Carolina State University.
 
