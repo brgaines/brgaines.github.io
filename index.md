@@ -14,6 +14,7 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 
 
 ### Recent News
+* I am excited that I will be attending the [United States Conference on Teaching Statistics (USCOTS) 2019](https://www.causeweb.org/cause/uscots/uscots19) on behalf of SAS. In addition to staffing an exhibitor table, I will also giving a presentation, [Training Modern Statisticians with SAS® Viya® for Learners](https://www.causeweb.org/cause/uscots/uscots19/program/technology-demo/sas).  It will be on Friday, May 17th at 4:25pm in room 109 -- I hope to see you there!
 
 #### SAS Global Forum 2019
 * I had a great time at [SAS Global Forum](https://www.sas.com/en_us/events/sas-global-forum.html) again this year.  I loved talking with users to hear how they use SAS, answer their questions, and see their excitement for my work that makes analytics more accessible for everyone.
