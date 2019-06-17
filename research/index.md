@@ -30,6 +30,9 @@ My other research projects focued on a convex formulation of clustering that has
 
 - Jarque, A., and **Gaines, B**. (2012). "[Regulation and the Composition of CEO Pay](https://www.richmondfed.org/publications/research/economic_quarterly/2012/q4/pdf/jarque.pdf)." *Federal Reserve Bank of Richmond Economic Quarterly*, 98(4), 309-348. [[BibTeX](http://brgaines.github.io/research/jarqueGaines12.bib)]
 
+- Courtois, R., **Gaines, B**, and Hatchondo, J.C. (2010). "[Is a New Asset Bubble Emerging in Certain Markets?](https://www.richmondfed.org/-/media/richmondfedorg/publications/research/economic_brief/2010/pdf/eb_10-02.pdf)." *Federal Reserve Bank of Richmond Economic Brief*, 10(2). [[BibTeX](http://brgaines.github.io/research/courtoisGainesHatchondo2010.bib)]
+
+
 ### Other Papers
 
 * **Gaines, B**. (2019).  "[Learning Data Science with SAS® University Edition and JupyterLab](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3133-2019.pdf)."  In _Proceedings of the SAS Global Forum 2019 Conference_. Cary, NC: SAS Institute Inc. [[BibTeX](http://brgaines.github.io/research/gainesSGF19.bib)]
