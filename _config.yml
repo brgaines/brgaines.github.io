@@ -2,7 +2,7 @@
 
 title: Brian R. Gaines
 locale: en_US
-description:  #Describe your website here.
+description:  Describe your website here.
 logo: Gaines.jpg
 search: false
 url: #brgaines.github.io
@@ -45,7 +45,7 @@ owner:
   flickr: #username
   tumblr: #username
   google:
-    plus: BrianGainesStats
+    plus: 
     analytics: UA-58411279-1
     verify:
     ad-client:
