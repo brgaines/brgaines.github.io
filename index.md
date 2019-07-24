@@ -14,7 +14,8 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 
 
 ### Recent News
-* I am excited that I will be attending the [United States Conference on Teaching Statistics (USCOTS) 2019](https://www.causeweb.org/cause/uscots/uscots19) on behalf of SAS. In addition to staffing an exhibitor table, I will also giving a presentation, [Training Modern Statisticians with SAS® Viya® for Learners](https://www.causeweb.org/cause/uscots/uscots19/program/technology-demo/sas).  It will be on Friday, May 17th at 4:25pm in room 109 -- I hope to see you there!
+* I will be attending the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2019/) in beautiful Denver, Colorado, on behalf of SAS.  I will be working the SAS booth in the EXPO area, and I hope to see you there!
+* I had an awesome time attending the [United States Conference on Teaching Statistics (USCOTS) 2019](https://www.causeweb.org/cause/uscots/uscots19) on behalf of SAS.  It was an excellent conference and I really wish I would have attended it while I was still teaching.  I cannot recommend it enough to statistics educators.  Thanks to everyone who stopped by the SAS booth, and my presentation, [Training Modern Statisticians with SAS® Viya® for Learners](https://www.causeweb.org/cause/uscots/uscots19/program/technology-demo/sas).
 
 #### SAS Global Forum 2019
 * I had a great time at [SAS Global Forum](https://www.sas.com/en_us/events/sas-global-forum.html) again this year.  I loved talking with users to hear how they use SAS, answer their questions, and see their excitement for my work that makes analytics more accessible for everyone.
@@ -28,7 +29,7 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 
 
 * You can explore and reproduce the examples in my paper by first installing [SAS® University Edition](https://www.sas.com/en_us/software/university-edition.html) (which is free for academic, non-commercial use) and then downloading the Jupyter notebooks and data from the [SAS Global Form 2019 repository on GitHub](https://github.com/sascommunities/sas-global-forum-2019/tree/master/3133-2019-Gaines).  Your comments and questions are encouraged!
-* I plan to eventually create videos of my super demos, and I will post them once they are available.  
+* I plan to eventually create videos of my super demos, and I will post them once they are available (they are currently being edited, so stay tuned!).  
 
 
 
