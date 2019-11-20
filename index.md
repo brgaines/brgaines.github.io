@@ -12,9 +12,14 @@ SAS Studio is a more modern interface for SAS that you can use in place of the [
 Before joining SAS, I finished my PhD in statistics at [North Carolina State University](http://www.ncsu.edu) under the direction of [Hua Zhou](http://hua-zhou.github.io/) and [Eric Chi](http://www.ericchi.com).  My [research](http://brgaines.github.io/research/) interests include machine learning, big and high-dimensional data, computational statistics, and statistics education.  While in grad school, I served as [an instructor](http://brgaines.github.io/teaching/) for ST311 (introductory statistics) for several semesters.  I also gained real-world experience as a Data Scientist Intern at [MaxPoint Interactive](http://maxpoint.com/us) and as a [statistical consultant](http://brgaines.github.io/consulting/) for the NC State University College of Veterinary Medicine.  Please take a look around my website and feel free to contact me if you have any questions or comments.
 
 
+### Upcoming Webinar!
+* Want to learn how SAS University Edition and JupyterLab form a great combination for teaching well-rounded data scientists?  Want to learn about a programming interface in which your code, results, and explanatory text can seamlessly coexist?  
+	* I will discuss these topics in a free webinar on Tuesday, Nov. 26th at 2pm.  [Register](https://www.causeweb.org/cause/webinar/sponsored/2019-11).  
+	* SAS University Edition is free to educators students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html).
+
 
 ### Recent News
-* I will be attending the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2019/) in beautiful Denver, Colorado, on behalf of SAS.  I will be working the SAS booth in the EXPO area, and I hope to see you there!
+* I had a lot of fun at the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2019/) in beautiful Denver, Colorado!  It is great to catch up with old friends and colleagues, and connec with users at the SAS booth in the EXPO area.
 * I had an awesome time attending the [United States Conference on Teaching Statistics (USCOTS) 2019](https://www.causeweb.org/cause/uscots/uscots19) on behalf of SAS.  It was an excellent conference and I really wish I would have attended it while I was still teaching.  I cannot recommend it enough to statistics educators.  Thanks to everyone who stopped by the SAS booth, and my presentation, [Training Modern Statisticians with SAS® Viya® for Learners](https://www.causeweb.org/cause/uscots/uscots19/program/technology-demo/sas).
 
 #### SAS Global Forum 2019
