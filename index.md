@@ -15,7 +15,7 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 ### Upcoming Webinar!
 * Want to learn how SAS University Edition and JupyterLab form a great combination for teaching well-rounded data scientists?  Want to learn about a programming interface in which your code, results, and explanatory text can seamlessly coexist?  
 	* I will discuss these topics in a free webinar on Tuesday, Nov. 26th at 2pm.  [Register](https://www.causeweb.org/cause/webinar/sponsored/2019-11).  
-	* SAS University Edition is free to educators students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html).
+	* SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html).
 
 
 ### Recent News
