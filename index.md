@@ -29,7 +29,7 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 | Type     | Title                                                               |
 |---------|---------------------------------------------------------------------|
 | Paper  | [Learning Data Science with SAS® University Edition and JupyterLab](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3133-2019.pdf) |
-| Super Demo  | Build Fully Connected Neural Networks with SAS® Studio Tasks and SAS® Viya®                                                    |
+| Super Demo  | [Build Fully Connected Neural Networks with SAS® Studio Tasks and SAS® Viya®](https://www.youtube.com/watch?v=uoVYHe8pZrg)                                     |
 | Super Demo | Easily Perform Competing-Risks Survival Analysis with SAS® Studio Tasks       |
 
 
