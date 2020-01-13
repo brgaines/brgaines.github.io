@@ -33,8 +33,7 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 | Super Demo | [Easily Perform Competing-Risks Survival Analysis with SAS® Studio Tasks](https://www.youtube.com/watch?v=WveBRwF6PgE)       |
 
 
-* You can explore and reproduce the examples in my paper by first installing [SAS® University Edition](https://www.sas.com/en_us/software/university-edition.html) (which is free for academic, non-commercial use) and then downloading the Jupyter notebooks and data from the [SAS Global Form 2019 repository on GitHub](https://github.com/sascommunities/sas-global-forum-2019/tree/master/3133-2019-Gaines).  Your comments and questions are encouraged!
-* I plan to eventually create videos of my super demos, and I will post them once they are available (they are currently being edited, so stay tuned!).  
+* You can explore and reproduce the examples in my paper by first installing [SAS® University Edition](https://www.sas.com/en_us/software/university-edition.html) (which is free for academic, non-commercial use) and then downloading the Jupyter notebooks and data from the [SAS Global Form 2019 repository on GitHub](https://github.com/sascommunities/sas-global-forum-2019/tree/master/3133-2019-Gaines).  Your comments and questions are encouraged! 
 
 
 
