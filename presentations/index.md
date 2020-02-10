@@ -4,14 +4,20 @@ title: Presentations
 excerpt: "Presentations I have given"
 modified: 2019-04-18
 ---
-## April, 2019 -- SAS Global Forum 2019
-I will be attending SAS Global Forum (SGF) again this year!
+## April, 2019 -- SAS Global Forum 2019 (Dallas, TX)
+I attended SAS Global Forum (SASGF) again in 2019, and once again I had a great time interacting with our users.  It was especially fun to demo features that I personally developed.  I also enjoyed giving a presentation on my SASGF paper, "[Learning Data Science with SAS® University Edition and JupyterLab](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3133-2019.pdf)."
 
+The following videos are shortened versions of my demos. Your questions and comments are encouraged, so feel free to contact me. 
 
-## April, 2018 -- SAS Global Forum 2018
-I attended SAS Global Forum (SGF) for the first time this year and presented three software demos on the tasks in SAS® Studio.  I am grateful for the opportuity to attend SGF -- it was a good experience and I had a lot of great interactions with our users.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uoVYHe8pZrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WveBRwF6PgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
 
-Shortened versions of the demos can be watched below.
+## April, 2018 -- SAS Global Forum 2018 (Denver, CO)
+I attended SAS Global Forum (SASGF) for the first time in 2018 and presented three software demos on the tasks in SAS® Studio.  I am grateful for the opportuity to attend SGF -- it was a good experience and I had a lot of great interactions with our users.
+
+The following videos are shortened versions of my demos. Your questions and comments are encouraged, so feel free to contact me.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1bq4n3DMNE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
@@ -19,7 +25,7 @@ Shortened versions of the demos can be watched below.
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S6wWBEr5H3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## August 3, 2017 -- Joint Statistical Meetings
+## August 3, 2017 -- Joint Statistical Meetings (Baltimore, MD)
 I presented my latest [research](http://brgaines.github.io/research/) at the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2017/) in Baltimore.  My talk was a part of a session on [Optimization Methods with Biological Applications](https://ww2.amstat.org/meetings/jsm/2017/onlineprogram/ActivityDetails.cfm?SessionID=214213).
 
 
