@@ -5,7 +5,9 @@ excerpt: "Presentations I have given"
 modified: 2019-04-18
 ---
 ## April, 2019 -- SAS Global Forum 2019 (Dallas, TX)
-I attended SAS Global Forum (SASGF) again in 2019, and once again I had a great time interacting with our users.  It was especially fun to demo features that I personally developed.  I also enjoyed giving a presentation on my SASGF paper, "[Learning Data Science with SAS® University Edition and JupyterLab](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3133-2019.pdf)."
+I attended SAS Global Forum (SASGF) again in 2019, and once again I had a great time interacting with our users.  It was especially fun to demo features that I personally developed.  
+
+I also enjoyed giving a presentation on my SASGF paper, "[Learning Data Science with SAS® University Edition and JupyterLab](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3133-2019.pdf)."  You can explore and reproduce the examples in my paper by first installing [SAS® University Edition](https://www.sas.com/en_us/software/university-edition.html) (which is free for academic, non-commercial use) and then downloading the Jupyter notebooks and data from the [SAS Global Form 2019 repository on GitHub](https://github.com/sascommunities/sas-global-forum-2019/tree/master/3133-2019-Gaines).  Your comments and questions are encouraged! 
 
 The following videos are shortened versions of my demos. Your questions and comments are encouraged, so feel free to contact me. 
 
