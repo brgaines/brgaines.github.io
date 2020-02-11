@@ -13,8 +13,9 @@ My other research projects focued on a convex formulation of clustering that has
 
 ### In Progress
 
-* **Gaines, B**. (forthcoming).  "Tips for Writing Custom SAS® Studio Tasks That Use CAS Actions for Advanced Analytics."  To appear in _Proceedings of the SAS Global Forum 2020 Conference_. Cary, NC: SAS Institute Inc.
-* Chi, E., **Gaines, B**., Sun, W. W., Zhou, H., and Yang, J. (2018).  "[Provable Convex Co-clustering of Tensors](https://arxiv.org/abs/1803.06518)," submitted.
+- **Gaines, B**. (forthcoming).  "Tips for Writing Custom SAS® Studio Tasks That Use CAS Actions for Advanced Analytics."  To appear in _Proceedings of the SAS Global Forum 2020 Conference_. Cary, NC: SAS Institute Inc.
+
+- Chi, E., **Gaines, B**., Sun, W. W., Zhou, H., and Yang, J. (2018).  "[Provable Convex Co-clustering of Tensors](https://arxiv.org/abs/1803.06518)," submitted.
 
 ### Publications
 - Parkinson, L., **Gaines, B**., and Nollens, H.  (2019). "Effect of Nutrient Enema on Serum Nutrient Concentrations in White-Spotted Bamboo Sharks (Chiloscyllium Plagiosum)," *Journal of Zoo and Wildlife Medicine*, 50(1), 55-61. [[BibTeX](http://brgaines.github.io/research/parkinsonGainesNollens19.bib)]
