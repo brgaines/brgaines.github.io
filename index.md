@@ -19,8 +19,8 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 
 | Type     | Title                                                               | Status | 
 |---------|---------------------------------------------------------------------|---------|
-| Super Demo  | [Image Classification Using SAS®](http://sasgfsessioncatalog.com/#/speaker/name@Gaines%20Brian%3E0@5127) | Upcoming | 
-| Super Demo  | [Build Fully Connected Neural Networks with SAS® Studio Tasks and SAS® Viya®](https://www.youtube.com/watch?v=uoVYHe8pZrg)                                                    | Available | 
+| Demo  | [Image Classification Using SAS®](http://sasgfsessioncatalog.com/#/speaker/name@Gaines%20Brian%3E0@5127) | Upcoming | 
+| Demo  | [Build Fully Connected Neural Networks with SAS® Studio Tasks and SAS® Viya®](https://www.youtube.com/watch?v=uoVYHe8pZrg)                                                    | Available | 
 | Paper | [Tips for Writing Custom SAS® Studio Tasks That Use CAS Actions for Advanced Analytics](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2020/4376-2020.pdf)       | Available | 
 
 * Also, get ready to experience Virtual SAS Global Forum 2020 on June 16. [**Register**](https://www.sas.com/gms/redirect.jsp?detail=GMS131450_180708) to explore new tutorials, technical talks, and a virtual experience in The Quad. Plus, view over 125 sessions! 
@@ -28,7 +28,7 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 
 ### Recent News
 * Want to learn how SAS University Edition and JupyterLab form a great combination for teaching well-rounded data scientists?  Want to learn about a programming interface in which your code, results, and explanatory text can seamlessly coexist?  
-    * I discussed these topics in a **free webinar** last fall in the CAUSE webinar series.  [Link to recording](https://www.causeweb.org/cause/webinar/sponsored/2019-11).  
+    * I discuss these topics in a **free webinar** that I presented last fall in the CAUSE webinar series.  [Link to recording](https://www.causeweb.org/cause/webinar/sponsored/2019-11).  
     * SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html).
 
 
