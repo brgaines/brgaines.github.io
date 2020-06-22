@@ -19,7 +19,7 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 
 | Type     | Title                                                               | Status | 
 |---------|---------------------------------------------------------------------|---------|
-| Demo  | [Image Classification Using SAS®](http://sasgfsessioncatalog.com/#/speaker/name@Gaines%20Brian%3E0@5127) | Upcoming | 
+| Demo  | [Image Classification Using SAS®](https://www.youtube.com/watch?v=_9ywlGrG5fU&list=PLVV6eZFA22QyaxYBynL-1Btk-nIMKmOqY) | Available | 
 | Demo  | [Build Fully Connected Neural Networks with SAS® Studio Tasks and SAS® Viya®](https://www.youtube.com/watch?v=uoVYHe8pZrg)                                                    | Available | 
 | Paper | [Tips for Writing Custom SAS® Studio Tasks That Use CAS Actions for Advanced Analytics](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2020/4376-2020.pdf)       | Available | 
 
