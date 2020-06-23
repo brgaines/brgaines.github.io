@@ -8,7 +8,6 @@ modified: 2019-04-18
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_9ywlGrG5fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_9ywlGrG5fU&list=PLVV6eZFA22QyaxYBynL-1Btk-nIMKmOqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## April, 2019 -- SAS Global Forum 2019 (Dallas, TX)
