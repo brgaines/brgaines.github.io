@@ -4,6 +4,13 @@ title: Presentations
 excerpt: "Presentations I have given"
 modified: 2019-04-18
 ---
+## June, 2020 -- SAS Global Forum 2019 (Virtual)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_9ywlGrG5fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_9ywlGrG5fU&list=PLVV6eZFA22QyaxYBynL-1Btk-nIMKmOqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## April, 2019 -- SAS Global Forum 2019 (Dallas, TX)
 I attended SAS Global Forum (SASGF) again in 2019, and once again I had a great time interacting with our users.  It was especially fun to demo features that I personally developed.  
 
