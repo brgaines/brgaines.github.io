@@ -11,6 +11,11 @@ SAS Studio is a modern interface for SAS that you can use in place of the [SAS W
 
 Before joining SAS, I finished my PhD in statistics at [North Carolina State University](http://www.ncsu.edu) under the direction of [Hua Zhou](http://hua-zhou.github.io/) and [Eric Chi](http://www.ericchi.com).  My [research](http://brgaines.github.io/research/) interests include machine learning, big and high-dimensional data, computational statistics, and statistics education.  While in grad school, I served as [an instructor](http://brgaines.github.io/teaching/) for ST311 (introductory statistics) for several semesters.  I also gained real-world experience as a Data Scientist Intern at [MaxPoint Interactive](http://maxpoint.com/us) and as a [statistical consultant](http://brgaines.github.io/consulting/) for the NC State University College of Veterinary Medicine.  Please take a look around my website and feel free to contact me if you have any questions or comments.
 
+#### Joint Statistical Meetings (JSM)
+* I will miss the opportunity to reunite with old friends, but I am still looking forward to the upcoming [virtual JSM](https://ww2.amstat.org/meetings/jsm/2020/index.cfm).  As always, there is a lot of great content on the [program](https://ww2.amstat.org/meetings/jsm/2020/program.cfm).  
+* Speaking of which, do you want to learn how SAS University Edition and JupyterLab form a great combination for teaching well-rounded data scientists?  Want to learn about a programming interface in which your code, results, and explanatory text can seamlessly coexist?  
+    * I will discuss these topics in a presentation at JSM this year.  A video of my presentation will be available on demand once the conference starts.  I will be available to chat on Thursday, August 6th from 10AM to 2PM, but please feel free to contact me anytime if you any comments or questions.  
+    * SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html)
 
 
 #### SAS Global Forum 2020
