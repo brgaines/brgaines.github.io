@@ -12,9 +12,10 @@ SAS Studio is a modern interface for SAS that you can use in place of the [SAS W
 Before joining SAS, I finished my PhD in statistics at [North Carolina State University](http://www.ncsu.edu) under the direction of [Hua Zhou](http://hua-zhou.github.io/) and [Eric Chi](http://www.ericchi.com).  My [research](http://brgaines.github.io/research/) interests include machine learning, big and high-dimensional data, computational statistics, and statistics education.  While in grad school, I served as [an instructor](http://brgaines.github.io/teaching/) for ST311 (introductory statistics) for several semesters.  I also gained real-world experience as a Data Scientist Intern at [MaxPoint Interactive](http://maxpoint.com/us) and as a [statistical consultant](http://brgaines.github.io/consulting/) for the NC State University College of Veterinary Medicine.  Please take a look around my website and feel free to contact me if you have any questions or comments.
 
 
+
 #### SAS Global Forum 2020
 * Although I completely understand and agree with the decision to cancel the in-person version of SAS Global Forum 2020, it was sad to miss out on the chance to meet and interact with our users at SASGF -- truly one of the highlights of my year!  A huge thanks to everyone involved in the pivot to a virtual event.  
-* The first two rounds of virtual content are already available on the [SAS Users YouTube channel](https://www.sas.com/gms/redirect.jsp?detail=GMS129118_179345). Plus, don't forget about the [proceedings](https://www.sas.com/en_us/events/sas-global-forum/program/proceedings.html), which are also available.  There is a lot of great content, so I encourage you to check it out!  
+* You can access a lot of the tutorials and technical talks on the [SAS Users YouTube channel](https://www.sas.com/gms/redirect.jsp?detail=GMS129118_179345). Additional content is available from the [virtual SASGF portal](https://www.sas.com/gms/redirect.jsp?detail=GMS131450_180708). Plus, don't forget about the [proceedings](https://www.sas.com/en_us/events/sas-global-forum/program/proceedings.html), which are also available.  There is a lot of great content, so I encourage you to check it out!  
 * The following list contains links to my content for this year's conference:  
 
 | Type     | Title                                                               | Status | 
@@ -23,13 +24,6 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 | Demo  | [Build Fully Connected Neural Networks with SAS® Studio Tasks and SAS® Viya®](https://www.youtube.com/watch?v=uoVYHe8pZrg)                                                    | Available | 
 | Paper | [Tips for Writing Custom SAS® Studio Tasks That Use CAS Actions for Advanced Analytics](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2020/4376-2020.pdf)       | Available | 
 
-* Also, get ready to experience Virtual SAS Global Forum 2020 on June 16. [**Register**](https://www.sas.com/gms/redirect.jsp?detail=GMS131450_180708) to explore new tutorials, technical talks, and a virtual experience in The Quad. Plus, view over 125 sessions! 
-
-
-### Recent News
-* Want to learn how SAS University Edition and JupyterLab form a great combination for teaching well-rounded data scientists?  Want to learn about a programming interface in which your code, results, and explanatory text can seamlessly coexist?  
-    * I discuss these topics in a **free webinar** that I presented last fall in the CAUSE webinar series.  [Link to recording](https://www.causeweb.org/cause/webinar/sponsored/2019-11).  
-    * SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html).
 
 
 
