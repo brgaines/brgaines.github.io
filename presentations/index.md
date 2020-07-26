@@ -9,6 +9,16 @@ modified: 2019-04-18
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_9ywlGrG5fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
+## November, 2019 -- CAUSE Webinar
+Want to learn how SAS University Edition and JupyterLab form a great combination for teaching well-rounded data scientists?  Want to learn about a programming interface in which your code, results, and explanatory text can seamlessly coexist?  
+
+I had the pleasure of discussing these topics in the [Consortium for the Advancement of Undergraduate Statistics Education (CAUSE) webinar series](https://www.causeweb.org/cause/webinar/sponsored/2019-11):  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1JGHy8VFiN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+ 
+SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html)
+
 
 ## April, 2019 -- SAS Global Forum 2019 (Dallas, TX)
 I attended SAS Global Forum (SASGF) again in 2019, and once again I had a great time interacting with our users.  It was especially fun to demo features that I personally developed.  
