@@ -14,7 +14,7 @@ Before joining SAS, I finished my PhD in statistics at [North Carolina State Uni
 #### Joint Statistical Meetings (JSM)
 * I will miss the opportunity to reunite with old friends, but I am still looking forward to the upcoming [virtual JSM](https://ww2.amstat.org/meetings/jsm/2020/index.cfm).  As always, there is a lot of great content on the [program](https://ww2.amstat.org/meetings/jsm/2020/program.cfm).  
 * Speaking of which, do you want to learn how SAS University Edition and JupyterLab form a great combination for teaching well-rounded data scientists?  Want to learn about a programming interface in which your code, results, and explanatory text can seamlessly coexist?  
-    * I will discuss these topics in a presentation at JSM this year.  A video of my presentation will be available on demand once the conference starts.  I will be available to chat on Thursday, August 6th from 10AM to 2PM, but please feel free to contact me anytime if you any comments or questions.  
+    * I will discuss these topics in a [presentation at JSM](https://ww2.amstat.org/meetings/jsm/2020/onlineprogram/AbstractDetails.cfm?abstractid=313386) this year.  A video of my presentation will be available on demand once the conference starts.  I will be available to chat on Thursday, August 6th from 10AM to 2PM, but please feel free to contact me anytime if you any comments or questions.  
     * SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html)
 
 
