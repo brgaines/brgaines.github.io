@@ -19,6 +19,10 @@ I had the pleasure of discussing these topics in the [Consortium for the Advance
  
 SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html)
 
+## May, 2019 -- COTS
+
+![USCOTS 2019 presentation](cots2019vfl.jpeg)
+
 
 ## April, 2019 -- SAS Global Forum 2019 (Dallas, TX)
 I attended SAS Global Forum (SASGF) again in 2019, and once again I had a great time interacting with our users.  It was especially fun to demo features that I personally developed.  
