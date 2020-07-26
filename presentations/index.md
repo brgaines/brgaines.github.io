@@ -21,7 +21,7 @@ SAS University Edition includes JupyterLab and is free to educators and students
 
 ## May, 2019 -- COTS
 
-![USCOTS 2019 presentation](cots2019vfl.jpeg)
+![USCOTS 2019 presentation](/images/cots2019vfl.jpeg)
 
 
 ## April, 2019 -- SAS Global Forum 2019 (Dallas, TX)
