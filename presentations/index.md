@@ -26,7 +26,7 @@ I had the honor of being invited to present my SASGF 2019 talk again at the West
 
 ![WUSS 2019 presentation](/images/wuss2019talk.png)
 
-As always, my favorite part of attending a SAS conference is the opportunity to interact with SAS users.
+As always, my favorite part of attending a SAS conference is the opportunity to interact with fellow SAS users.
 
 ![WUSS 2019 networking](/images/wuss2019networking.jpg)
 
@@ -39,9 +39,11 @@ In my [talk](https://www.causeweb.org/cause/uscots/uscots19/program/technology-d
 
 ![USCOTS 2019 presentation](/images/cots2019vfl.jpeg)
 
-This is the first time that SAS has attended USCOTS, and I was very pleased 
+This is the first time that SAS has attended USCOTS, and I was very pleased with the amount of attention the SAS booth attracted.  
 
+![USCOTS 2019 booth](/images/uscotsBooth1.jpg)
 
+![USCOTS 2019 booth](/images/uscotsBooth2.jpg)
 
 ## April, 2019 -- SAS Global Forum 2019 (Dallas, TX)
 I attended SAS Global Forum (SASGF) again in 2019, and once again I had a great time interacting with our users.  It was especially fun to demo features that I personally developed.  
