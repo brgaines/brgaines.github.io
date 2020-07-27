@@ -28,7 +28,7 @@ I had the honor of being invited to present my SASGF 2019 talk again at the West
 
 As always, my favorite part of attending a SAS conference is the opportunity to interact with SAS users.
 
-![WUSS 2019 presentation](/images/wuss2019networking)
+![WUSS 2019 networking](/images/wuss2019networking.jpg)
 
 
 
