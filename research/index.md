@@ -31,7 +31,11 @@ My other research projects focued on a convex formulation of clustering that has
 - Courtois, R., **Gaines, B**, and Hatchondo, J.C. (2010). "[Is a New Asset Bubble Emerging in Certain Markets?](https://www.richmondfed.org/-/media/richmondfedorg/publications/research/economic_brief/2010/pdf/eb_10-02.pdf)." *Federal Reserve Bank of Richmond Economic Brief*, 10(2). [[BibTeX](http://brgaines.github.io/research/courtoisGainesHatchondo2010.bib)]
 
 
-### Other Papers
+### Other Articles
+- **Gaines, B**. (2020).  "[How to Develop SAS Code to Train a Deep Learning Model for Image Classification](https://communities.sas.com/t5/SAS-Communities-Library/How-to-Develop-SAS-Code-to-Train-a-Deep-Learning-Model-for-Image/ta-p/663322#)."  June 23.
+
+- **Gaines, B**. (2020).  "[Writing Custom SAS® Studio Tasks That Use CAS Actions for Advanced Analytics](https://communities.sas.com/t5/SAS-Communities-Library/Writing-Custom-SAS-Studio-Tasks-That-Use-CAS-Actions-for/tac-p/658386)." June 8.  
+
 - **Gaines, B**. (2020).  "[Tips for Writing Custom SAS® Studio Tasks That Use CAS Actions for Advanced Analytics](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2020/4376-2020.pdf)."  In _Proceedings of the SAS Global Forum 2020 Conference_. Cary, NC: SAS Institute Inc. [[BibTeX](http://brgaines.github.io/research/gainesSGF20.bib)] [[Examples](https://github.com/sascommunities/sas-global-forum-2020/tree/master/papers/4376-2020-Gaines)]
 
 * **Gaines, B**. (2019).  "[Learning Data Science with SAS® University Edition and JupyterLab](https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3133-2019.pdf)."  In _Proceedings of the SAS Global Forum 2019 Conference_. Cary, NC: SAS Institute Inc. [[BibTeX](http://brgaines.github.io/research/gainesSGF19.bib)] [[Examples](https://github.com/sascommunities/sas-global-forum-2019/tree/master/3133-2019-Gaines)]
