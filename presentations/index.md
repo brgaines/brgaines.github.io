@@ -22,7 +22,11 @@ I had the pleasure of discussing these topics in the [Consortium for the Advance
 SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html)
 
 ## May, 2019 -- USCOTS 2019
-I had the privilege of presenting at the United States Conference on Teaching Statistics (USCOTS). If you are a statistics educator or a fan of statistics education, I cannot recommend this conference enough.  
+
+
+
+## May, 2019 -- USCOTS 2019
+I had the privilege of presenting at the [United States Conference on Teaching Statistics (USCOTS)](https://www.causeweb.org/cause/uscots/uscots19/). If you are a statistics educator or a fan of statistics education, I cannot recommend this conference enough.  
 
 In my [talk](https://www.causeweb.org/cause/uscots/uscots19/program/technology-demo/sas), I provided an overview of [SAS® Viya® for Learners](https://www.sas.com/en_us/software/viya-for-learners.html) and how it enables you to effectively train modern statisticians (aka data scientists).  Perhaps my favorite part of SAS® Viya® is that you can easily create visualizations and build models with a drag-and-drop interface, or you can program in your language of choice—SAS®, Python, or R.
 
