@@ -21,7 +21,14 @@ I had the pleasure of discussing these topics in the [Consortium for the Advance
  
 SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html)
 
-## May, 2019 -- USCOTS 2019
+## September, 2019 -- WUSS 2019
+I had the honor of being invited to present my SASGF 2019 talk again at the Western Users of SAS® Software Educational Forum and Conference (WUSS).
+
+![WUSS 2019 presentation](/images/wuss2019talk.png)
+
+As always, my favorite part of attending a SAS conference is the opportunity to interact with SAS users.
+
+![WUSS 2019 presentation](/images/wuss2019networking)
 
 
 
@@ -31,6 +38,9 @@ I had the privilege of presenting at the [United States Conference on Teaching S
 In my [talk](https://www.causeweb.org/cause/uscots/uscots19/program/technology-demo/sas), I provided an overview of [SAS® Viya® for Learners](https://www.sas.com/en_us/software/viya-for-learners.html) and how it enables you to effectively train modern statisticians (aka data scientists).  Perhaps my favorite part of SAS® Viya® is that you can easily create visualizations and build models with a drag-and-drop interface, or you can program in your language of choice—SAS®, Python, or R.
 
 ![USCOTS 2019 presentation](/images/cots2019vfl.jpeg)
+
+This is the first time that SAS has attended USCOTS, and I was very pleased 
+
 
 
 ## April, 2019 -- SAS Global Forum 2019 (Dallas, TX)
