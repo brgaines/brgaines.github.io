@@ -8,7 +8,6 @@ modified: 2019-04-18
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_9ywlGrG5fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
-
 A [companion article](https://communities.sas.com/t5/SAS-Communities-Library/How-to-Develop-SAS-Code-to-Train-a-Deep-Learning-Model-for-Image/ta-p/663322) that provides a little more detail is available on SAS Communities.  
 
 ## November, 2019 -- CAUSE Webinar
