@@ -59,7 +59,7 @@ The following videos are shortened versions of my demos. Your questions and comm
 ## April, 2018 -- SAS Global Forum 2018 (Denver, CO)
 I attended SAS Global Forum (SASGF) for the first time in 2018 and presented three software demos on the tasks in SAS® Studio.  I am grateful for the opportuity to attend SGF -- it was a good experience and I had a lot of great interactions with our users.
 
-![SGF 2018 booth](/images/sgf2018Booth.jpg)
+->![SGF 2018 booth](/images/sgf2018Booth.jpg)<-
 
 The following videos are shortened versions of my demos. Your questions and comments are encouraged, so feel free to contact me.
 
