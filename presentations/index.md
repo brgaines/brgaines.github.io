@@ -59,7 +59,7 @@ The following videos are shortened versions of my demos. Your questions and comm
 ## April, 2018 -- SAS Global Forum 2018 (Denver, CO)
 I attended SAS Global Forum (SASGF) for the first time in 2018 and presented three software demos on the tasks in SAS® Studio.  I am grateful for the opportuity to attend SGF -- it was a good experience and I had a lot of great interactions with our users.
 
-->![SGF 2018 booth](/images/sgf2018Booth.jpg)<-
+![SGF 2018 booth](/images/sgf2018Booth.jpg)
 
 The following videos are shortened versions of my demos. Your questions and comments are encouraged, so feel free to contact me.
 
@@ -71,6 +71,11 @@ The following videos are shortened versions of my demos. Your questions and comm
 
 ## August 3, 2017 -- Joint Statistical Meetings (Baltimore, MD)
 I presented my latest [research](http://brgaines.github.io/research/) at the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2017/) in Baltimore.  My talk was a part of a session on [Optimization Methods with Biological Applications](https://ww2.amstat.org/meetings/jsm/2017/onlineprogram/ActivityDetails.cfm?SessionID=214213).
+
+## August 3, 2016 -- Joint Statistical Meetings (Chicago, IL)
+I [presented a poster](https://ww2.amstat.org/meetings/jsm/2016/onlineprogram/AbstractDetails.cfm?abstractid=320905) of my research at JSM in Chicago.  
+
+![JSM 2016 poster](/images/jsm2016poster.jpg)
 
 
 ## March 2, 2016 -- Introduction to CVX & Publish
