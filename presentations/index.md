@@ -78,6 +78,11 @@ I [presented a poster](https://ww2.amstat.org/meetings/jsm/2016/onlineprogram/Ab
 ![JSM 2016 poster](/images/jsm2016poster.jpg)
 
 
+## July 27, 2017 -- Dissertation Defense
+On 7-27-17, I successfully defended my dissertation. It was a bit surreal because it was the culmination of a long journey that began over 10 years prior. I am eternally grateful to the amazing friends, family, mentors, and colleagues who helped me get to this point. 
+
+![Defense wins championships](/images/defenseWinsChampionships.jpg)
+
 ## March 2, 2016 -- Introduction to CVX & Publish
 I gave a guest lecture in [Eric Chi's](http://www.ericchi.com/) [Advanced Computing](http://www.stat.ncsu.edu/people/chi/courses/ST790/) course on an introduction to [CVX](http://cvxr.com/cvx/), a modeling tool for solving convex optimization problems in MATLAB.  I also briefly discussed MATLAB's publish feature to integrate code, output, and markup into one document.  The materials from the talk are available in hopes that others find them useful:
 
