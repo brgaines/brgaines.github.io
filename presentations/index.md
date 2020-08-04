@@ -72,16 +72,20 @@ The following videos are shortened versions of my demos. Your questions and comm
 ## August 3, 2017 -- Joint Statistical Meetings (Baltimore, MD)
 I presented my latest [research](http://brgaines.github.io/research/) at the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2017/) in Baltimore.  My talk was a part of a session on [Optimization Methods with Biological Applications](https://ww2.amstat.org/meetings/jsm/2017/onlineprogram/ActivityDetails.cfm?SessionID=214213).
 
-## August 3, 2016 -- Joint Statistical Meetings (Chicago, IL)
-I [presented a poster](https://ww2.amstat.org/meetings/jsm/2016/onlineprogram/AbstractDetails.cfm?abstractid=320905) of my research at JSM in Chicago.  
-
-![JSM 2016 poster](/images/jsm2016poster.jpg)
-
-
 ## July 27, 2017 -- Dissertation Defense
 On 7-27-17, I successfully defended my dissertation. It was a bit surreal because it was the culmination of a long journey that began over 10 years prior. I am eternally grateful to the amazing friends, family, mentors, and colleagues who helped me get to this point. 
 
 ![Defense wins championships](/images/defenseWinsChampionships.jpg)
+
+## March 22, 2017 -- NC State University Graduate Student Research Symposium
+I was grateful for the opportunity to represent the NC State Statistics Department at the NC State University Graduate School Research Symposium. Talking shop with researchers in other fields was a great and productive experience, and it was especially nice to practice the important skill of effectively communicating research and statistical ideas to someone without a strong background in statistics.  Winning 2nd place in the Mathematical & Physical Sciences division was a nice bonus!  Thanks to everyone who made it possible!
+
+![NCSU research symposium](/images/gradResearchSymposium.jpg)
+
+## August 3, 2016 -- Joint Statistical Meetings (Chicago, IL)
+I [presented a poster](https://ww2.amstat.org/meetings/jsm/2016/onlineprogram/AbstractDetails.cfm?abstractid=320905) of my research at JSM in Chicago.  
+
+![JSM 2016 poster](/images/jsm2016poster.jpg)
 
 ## March 2, 2016 -- Introduction to CVX & Publish
 I gave a guest lecture in [Eric Chi's](http://www.ericchi.com/) [Advanced Computing](http://www.stat.ncsu.edu/people/chi/courses/ST790/) course on an introduction to [CVX](http://cvxr.com/cvx/), a modeling tool for solving convex optimization problems in MATLAB.  I also briefly discussed MATLAB's publish feature to integrate code, output, and markup into one document.  The materials from the talk are available in hopes that others find them useful:
