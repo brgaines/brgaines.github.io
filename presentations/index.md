@@ -8,7 +8,9 @@ modified: 2019-04-18
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_9ywlGrG5fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
-A [companion article](https://communities.sas.com/t5/SAS-Communities-Library/How-to-Develop-SAS-Code-to-Train-a-Deep-Learning-Model-for-Image/ta-p/663322) that provides a little more detail is available on SAS Communities.  
+A [companion article](https://communities.sas.com/t5/SAS-Communities-Library/How-to-Develop-SAS-Code-to-Train-a-Deep-Learning-Model-for-Image/ta-p/663322) that provides a little more detail is available on SAS Communities. The data set and complete code for this example, along with additional setup instructions, are available in the [SAS Global Forum 2020 GitHub repository](https://github.com/sascommunities/sas-global-forum-2020/tree/master/demos/SD403-Gaines-ImageClassification). 
+
+
 
 ## November, 2019 -- CAUSE Webinar
 Want to learn how SAS University Edition and JupyterLab form a great combination for teaching well-rounded data scientists?  Want to learn about a programming interface in which your code, results, and explanatory text can seamlessly coexist?  
