@@ -20,7 +20,7 @@ I had the pleasure of discussing these topics in the [Consortium for the Advance
  
 SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html)
 
-## November, 2019 -- Dartmouth Area SAS® Users Group
+## November, 2019 -- Dartmouth Users Group
 It was a privilege to be invited to present my SASGF 2019 talk again as a webinar for the [Dartmouth Area SAS® Users Group](http://dasug.dartmouth.edu/index.php/announcements/events/).
 
 
@@ -73,7 +73,7 @@ The following videos are shortened versions of my demos. Your questions and comm
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S6wWBEr5H3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-   https://ww2.amstat.org/meetings/jsm/2020/onlineprogram/AbstractDetails.cfm?abstractid=313386
+   
 
 ## August 3, 2017 -- Joint Statistical Meetings (Baltimore, MD)
 I presented my latest [research](http://brgaines.github.io/research/) at the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2017/) in Baltimore.  My talk was a part of a session on [Optimization Methods with Biological Applications](https://ww2.amstat.org/meetings/jsm/2017/onlineprogram/ActivityDetails.cfm?SessionID=214213).
@@ -82,6 +82,15 @@ I presented my latest [research](http://brgaines.github.io/research/) at the [Jo
 On 7-27-17, I successfully defended my dissertation. It was a bit surreal because it was the culmination of a long journey that began over 10 years prior. I am eternally grateful to the amazing friends, family, mentors, and colleagues who helped me get to this point. 
 
 ![Defense wins championships](/images/defenseWinsChampionships.jpg)
+
+
+## February 8, 2017 -- SAMSI WISO
+I enjoyed presenting my research at the SAMSI [Workshop on the Interface of Statistics and Optimization (WISO)](https://www.samsi.info/programs-and-activities/research-workshops/workshop-interface-statistics-optimization-wiso/):
+
+![WISO](/images/samsiWISOposter2017.jpg)
+
+It was a great workshop that included some well-known speakers, so I am really glad that I was asked to participate.
+
 
 ## March 22, 2017 -- NC State University Graduate Student Research Symposium
 I was grateful for the opportunity to represent the NC State Statistics Department at the [NC State University Graduate School Research Symposium](https://grad.ncsu.edu/news/2017/03/winners-announced-in-graduate-student-research-symposium/). Talking shop with researchers in other fields was a great and productive experience, and it was especially nice to practice the important skill of effectively communicating research and statistical ideas to someone without a strong background in statistics.  Winning 2nd place in the Mathematical & Physical Sciences division was a nice bonus!  Thanks to everyone who made it possible!
