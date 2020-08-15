@@ -20,6 +20,10 @@ I had the pleasure of discussing these topics in the [Consortium for the Advance
  
 SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html)
 
+## November, 2019 -- Dartmouth Area SAS® Users Group
+It was a privilege to be invited to present my SASGF 2019 talk again as a webinar for the [Dartmouth Area SAS® Users Group](http://dasug.dartmouth.edu/index.php/announcements/events/).
+
+
 ## September, 2019 -- WUSS 2019
 I had the honor of being invited to present my SASGF 2019 talk again at the Western Users of SAS® Software Educational Forum and Conference (WUSS).
 
@@ -68,6 +72,8 @@ The following videos are shortened versions of my demos. Your questions and comm
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pFqSKaTo-pc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S6wWBEr5H3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   https://ww2.amstat.org/meetings/jsm/2020/onlineprogram/AbstractDetails.cfm?abstractid=313386
 
 ## August 3, 2017 -- Joint Statistical Meetings (Baltimore, MD)
 I presented my latest [research](http://brgaines.github.io/research/) at the [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2017/) in Baltimore.  My talk was a part of a session on [Optimization Methods with Biological Applications](https://ww2.amstat.org/meetings/jsm/2017/onlineprogram/ActivityDetails.cfm?SessionID=214213).
