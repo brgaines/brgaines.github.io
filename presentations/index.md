@@ -95,7 +95,7 @@ It was a great workshop that included some well-known speakers, so I am really g
 
 
 ## March 22, 2017 -- NC State University Graduate Student Research Symposium
-I was grateful for the opportunity to represent the NC State Statistics Department at the [NC State University Graduate School Research Symposium](https://grad.ncsu.edu/news/2017/03/winners-announced-in-graduate-student-research-symposium/). Talking shop with researchers in other fields was a great and productive experience, and it was especially nice to practice the important skill of effectively communicating research and statistical ideas to someone without a strong background in statistics.  Winning 2nd place in the Mathematical & Physical Sciences division was a nice bonus!  Thanks to everyone who made it possible!
+I was grateful for the opportunity to represent the NC State Statistics Department at the [NC State University Graduate School Research Symposium](https://grad.ncsu.edu/news/2017/03/winners-announced-in-graduate-student-research-symposium/). Talking shop with researchers in other fields was a great and productive experience, and it was especially nice to practice the important skill of effectively communicating research and statistical ideas to someone without a strong background in statistics.  [Winning 2nd place](https://grad.ncsu.edu/wp-content/uploads/2017/04/2017SymposiumWinningPosters.pdf) in the Mathematical & Physical Sciences division was a nice bonus!  Thanks to everyone who made it possible!
 
 ![NCSU research symposium](/images/gradResearchSymposium.jpg)
 
