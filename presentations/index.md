@@ -4,6 +4,10 @@ title: Presentations
 excerpt: "Presentations I have given"
 modified: 2019-04-18
 ---
+## August, 2020 -- Joint Statistical Meetings (Virtual)
+Although I greatly missed the opportunity to reunite with old friends, it was great to virtually present [my talk on JupyterLab](https://ww2.amstat.org/meetings/jsm/2020/onlineprogram/AbstractDetails.cfm?abstractid=313386).
+
+
 ## June, 2020 -- SAS Global Forum 2019 (Virtual)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_9ywlGrG5fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -12,7 +16,7 @@ A [companion article](https://communities.sas.com/t5/SAS-Communities-Library/How
 
 
 
-## November, 2019 -- CAUSE Webinar
+## November, 2019 -- CAUSE Webinar (Virtual)
 Want to learn how SAS University Edition and JupyterLab form a great combination for teaching well-rounded data scientists?  Want to learn about a programming interface in which your code, results, and explanatory text can seamlessly coexist?  
 
 I had the pleasure of discussing these topics in the [Consortium for the Advancement of Undergraduate Statistics Education (CAUSE) webinar series](https://www.causeweb.org/cause/webinar/sponsored/2019-11):  
@@ -22,11 +26,11 @@ I had the pleasure of discussing these topics in the [Consortium for the Advance
  
 SAS University Edition includes JupyterLab and is free to educators and students for non-commercial use. [Learn more](https://www.sas.com/en_us/software/university-edition.html)
 
-## November, 2019 -- Dartmouth Users Group
+## November, 2019 -- Dartmouth Users Group (Virtual)
 It was a privilege to be invited to present my SASGF 2019 talk again as a webinar for the [Dartmouth Area SAS® Users Group](http://dasug.dartmouth.edu/index.php/announcements/events/).
 
 
-## September, 2019 -- WUSS 2019
+## September, 2019 -- WUSS 2019 (Seattle, WA)
 I had the honor of being invited to present my SASGF 2019 talk again at the Western Users of SAS® Software Educational Forum and Conference (WUSS).
 
 ![WUSS 2019 presentation](/images/wuss2019talk.png)
@@ -37,7 +41,7 @@ As always, my favorite part of attending a SAS conference is the opportunity to 
 
 
 
-## May, 2019 -- USCOTS 2019
+## May, 2019 -- USCOTS 2019 (State College, PA)
 I had the privilege of presenting at the [United States Conference on Teaching Statistics (USCOTS)](https://www.causeweb.org/cause/uscots/uscots19/). If you are a statistics educator or a fan of statistics education, I cannot recommend this conference enough.  
 
 In my [talk](https://www.causeweb.org/cause/uscots/uscots19/program/technology-demo/sas), I provided an overview of [SAS® Viya® for Learners](https://www.sas.com/en_us/software/viya-for-learners.html) and how it enables you to effectively train modern statisticians (aka data scientists).  Perhaps my favorite part of SAS® Viya® is that you can easily create visualizations and build models with a drag-and-drop interface, or you can program in your language of choice—SAS®, Python, or R.
