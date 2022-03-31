@@ -30,6 +30,10 @@ My other research projects focused on a convex formulation of clustering that ha
 
 
 ### Other Articles
+- **Gaines, B**. (2022). "[Accuracy vs. Interpretability? With Generalized Additive Models (GAMs), You Can Have Both](https://blogs.sas.com/content/subconsciousmusings/2022/03/24/accuracy-versus-interpretability-with-generalized-additive-models-gams-you-can-have-both/)." March 24.
+
+- **Gaines, B**. (2022). "[How to Train Generalized Additive Models (GAMs) in Model Studio](https://communities.sas.com/t5/SAS-Communities-Library/How-to-Train-Generalized-Additive-Models-GAMs-in-Model-Studio/ta-p/793597)." March 24.
+
 - **Gaines, B**. (2020). "[How to Develop SAS Code to Train a Deep Learning Model for Image Classification](https://communities.sas.com/t5/SAS-Communities-Library/How-to-Develop-SAS-Code-to-Train-a-Deep-Learning-Model-for-Image/ta-p/663322#)." June 23.
 
 - **Gaines, B**. (2020). "[Writing Custom SAS® Studio Tasks That Use CAS Actions for Advanced Analytics](https://communities.sas.com/t5/SAS-Communities-Library/Writing-Custom-SAS-Studio-Tasks-That-Use-CAS-Actions-for/tac-p/658386)." June 8.
